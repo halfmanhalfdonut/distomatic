@@ -8,7 +8,11 @@ const NHL = [
       latitude: '42.366',
       longitude: '-71.062',
       address: 'Boston, Massachusetts'
-    }
+    },
+    colors: [
+      '#000000',
+      '#FCB514'
+    ]
   },
   {
     city: 'Buffalo',
@@ -19,7 +23,12 @@ const NHL = [
       latitude: '42.875',
       longitude: '-78.876',
       address: 'Buffalo, New York'
-    }
+    },
+    colors: [
+      '#002654',
+      '#FCB514',
+      '#ADAFAA'
+    ]
   },
   {
     city: 'Detroit',
@@ -30,7 +39,11 @@ const NHL = [
       latitude: '42.341',
       longitude: '-83.055',
       address: 'Detroit, Michigan'
-    }
+    },
+    colors: [
+      '#CE1126',
+      '#FFFFFF'
+    ]
   },
   {
     city: 'Florida',
@@ -41,7 +54,12 @@ const NHL = [
       latitude: '26.158',
       longitude: '-80.325',
       address: 'Sunrise, Florida'
-    }
+    },
+    colors: [
+      '#C8102E',
+      '#041E42',
+      '#B9975B'
+    ]
   },
   {
     city: 'Montreal',
@@ -52,7 +70,12 @@ const NHL = [
       latitude: '45.496',
       longitude: '-73.569',
       address: 'Montreal, Quebec'
-    }
+    },
+    colors: [
+      '#AF1E2D',
+      '#FFFFFF',
+      '#192168'
+    ]
   },
   {
     city: 'Ottawa',
@@ -63,7 +86,13 @@ const NHL = [
       latitude: '45.296',
       longitude: '-75.927',
       address: 'Ottawa, Ontario'
-    }
+    },
+    colors: [
+      '#CE1126',
+      '#000000',
+      '#BF910C',
+      '#FFFFFF'
+    ]
   },
   {
     city: 'Tampa Bay',
@@ -74,7 +103,11 @@ const NHL = [
       latitude: '27.842',
       longitude: '-82.451',
       address: 'Tampa, Florida'
-    }
+    },
+    colors: [
+      '#00205B',
+      '#FFFFFF'
+    ]
   },
   {
     city: 'Toronto',
@@ -85,7 +118,11 @@ const NHL = [
       latitude: '43.643',
       longitude: '-79.379',
       address: 'Toronto, Ontario'
-    }
+    },
+    colors: [
+      '#003E7E',
+      '#FFFFFF'
+    ]
   },
   {
     city: 'Carolina',
@@ -96,7 +133,13 @@ const NHL = [
       latitude: '35.803',
       longitude: '-78.721',
       address: 'Raleigh, North Carolina'
-    }
+    },
+    colors: [
+      '#CC0000',
+      '#FFFFFF',
+      '#A2A9AF',
+      '#000000'
+    ]
   },
   {
     city: 'Columbus',
@@ -107,7 +150,12 @@ const NHL = [
       latitude: '39.969',
       longitude: '-83.006',
       address: 'Columbus, Ohio'
-    }
+    },
+    colors: [
+      '#002654',
+      '#CE1126',
+      '#A4A9AD'
+    ]
   },
   {
     city: 'New Jersey',
@@ -118,7 +166,12 @@ const NHL = [
       latitude: '40.733',
       longitude: '-74.171',
       address: 'Newark, New Jersey'
-    }
+    },
+    colors: [
+      '#CE1126',
+      '#000000',
+      '#FFFFFF'
+    ]
   },
   {
     city: 'New York',
@@ -129,7 +182,12 @@ const NHL = [
       latitude: '40.682',
       longitude: '-73.974',
       address: 'New York, New York'
-    }
+    },
+    colors: [
+      '#00539B',
+      '#F47D30',
+      '#FFFFFF'
+    ]
   },
   {
     city: 'New York',
@@ -140,7 +198,12 @@ const NHL = [
       latitude: '40.750',
       longitude: '-73.993',
       address: 'New York, New York'
-    }
+    },
+    colors: [
+      '#0038A8',
+      '#CE1126',
+      '#FFFFFF'
+    ]
   },
   {
     city: 'Philadelphia',
@@ -151,7 +214,12 @@ const NHL = [
       latitude: '39.901',
       longitude: '-75.171',
       address: 'Philadelphia, Pennsylvania'
-    }
+    },
+    colors: [
+      '#F74902',
+      '#000000',
+      '#FFFFFF'
+    ]
   },
   {
     city: 'Pittsburgh',
@@ -162,7 +230,12 @@ const NHL = [
       latitude: '40.439',
       longitude: '-79.989',
       address: 'Pittsburgh, Pennsylvania'
-    }
+    },
+    colors: [
+      '#000000',
+      '#FCB514',
+      '#FFFFFF'
+    ]
   },
   {
     city: 'Washington',
@@ -173,7 +246,12 @@ const NHL = [
       latitude: '38.898',
       longitude: '-77.020',
       address: 'Washington, DC'
-    }
+    },
+    colors: [
+      '#CF0A2C',
+      '#FFFFFF',
+      '#041E41'
+    ]
   },
   {
     city: 'Chicago',
@@ -184,7 +262,12 @@ const NHL = [
       latitude: '41.880',
       longitude: '-87.674',
       address: 'Chicago, Illinois'
-    }
+    },
+    colors: [
+      '#CE1126',
+      '#FFFFFF',
+      '#000000'
+    ]
   },
   {
     city: 'Colorado',
@@ -195,7 +278,13 @@ const NHL = [
       latitude: '39.748',
       longitude: '-105.007',
       address: 'Denver, Colorado'
-    }
+    },
+    colors: [
+      '#6F263D',
+      '#236192',
+      '#A2AAAD',
+      '#000000'
+    ]
   },
   {
     city: 'Dallas',
@@ -206,7 +295,13 @@ const NHL = [
       latitude: '32.790',
       longitude: '-96.810',
       address: 'Dallas, Texas'
-    }
+    },
+    colors: [
+      '#006847',
+      '#000000',
+      '#8F8F8C',
+      '#FFFFFF'
+    ]
   },
   {
     city: 'Minnesota',
@@ -217,7 +312,13 @@ const NHL = [
       latitude: '44.944',
       longitude: '-93.101',
       address: 'Saint Paul, Minnesota'
-    }
+    },
+    colors: [
+      '#AF1E24',
+      '#024930',
+      '#EDAA00',
+      '#E2D6B5'
+    ]
   },
   {
     city: 'Nashville',
@@ -228,7 +329,12 @@ const NHL = [
       latitude: '36.159',
       longitude: '-86.778',
       address: 'Nashville, Tennessee'
-    }
+    },
+    colors: [
+      '#FFB81C',
+      '#041E42',
+      '#FFFFFF'
+    ]
   },
   {
     city: 'St Louis',
@@ -239,7 +345,13 @@ const NHL = [
       latitude: '38.626',
       longitude: '-90.202',
       address: 'St Louis, Missouri'
-    }
+    },
+    colors: [
+      '#002F87',
+      '#FCB514',
+      '#002654',
+      '#FFFFFF'
+    ]
   },
   {
     city: 'Winnipeg',
@@ -250,7 +362,14 @@ const NHL = [
       latitude: '49.892',
       longitude: '-97.143',
       address: 'Winnipeg, Manitoba'
-    }
+    },
+    colors: [
+      '#041E41',
+      '#0060A5',
+      '#8E9090',
+      '#AC162C',
+      '#FFFFFF'
+    ]
   },
   {
     city: 'Anaheim',
@@ -261,7 +380,13 @@ const NHL = [
       latitude: '33.807',
       longitude: '-117.876',
       address: 'Anaheim, California'
-    }
+    },
+    colors: [
+      '#000000',
+      '#B5985A',
+      '#F95602',
+      '#A4A9AD'
+    ]
   },
   {
     city: 'Arizona',
@@ -272,7 +397,12 @@ const NHL = [
       latitude: '33.531',
       longitude: '-112.261',
       address: 'Glendale, Arizona'
-    }
+    },
+    colors: [
+      '#8C2633',
+      '#E2D6B5',
+      '#000000'
+    ]
   },
   {
     city: 'Calgary',
@@ -283,7 +413,13 @@ const NHL = [
       latitude: '51.037',
       longitude: '-114.051',
       address: 'Calgary, Alberta'
-    }
+    },
+    colors: [
+      '#CE1126',
+      '#F3BC52',
+      '#000000',
+      '#FFFFFF'
+    ]
   },
   {
     city: 'Edmonton',
@@ -294,7 +430,12 @@ const NHL = [
       latitude: '53.546',
       longitude: '-113.497',
       address: 'Edmonton, Alberta'
-    }
+    },
+    colors: [
+      '#FF4C00',
+      '#041E41',
+      '#FFFFFF'
+    ]
   },
   {
     city: 'Los Angeles',
@@ -305,7 +446,12 @@ const NHL = [
       latitude: '34.043',
       longitude: '-118.267',
       address: 'Los Angeles, California'
-    }
+    },
+    colors: [
+      '#ACAEA9',
+      '#000000',
+      '#FFFFFF'
+    ]
   },
   {
     city: 'San Jose',
@@ -316,7 +462,12 @@ const NHL = [
       latitude: '37.332',
       longitude: '-121.901',
       address: 'San Jose, California'
-    }
+    },
+    colors: [
+      '#006D75',
+      '#EA7200',
+      '#000000'
+    ]
   },
   {
     city: 'Vancouver',
@@ -327,7 +478,12 @@ const NHL = [
       latitude: '49.277',
       longitude: '-123.108',
       address: 'Vancouver, British Columbia'
-    }
+    },
+    colors: [
+      '#001F5B',
+      '#008852',
+      '#FFFFFF'
+    ]
   },
   {
     city: 'Vegas',
@@ -338,7 +494,13 @@ const NHL = [
       latitude: '36.102',
       longitude: '-115.178',
       address: 'Paradise, Nevada'
-    }
+    },
+    colors: [
+      '#333F42',
+      '#B4975A',
+      '#E31837',
+      '#000000'
+    ]
   }
 ];
 

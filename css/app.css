@@ -16,19 +16,25 @@ a,
 a:active,
 a:visited,
 a:active {
-  color: dodgerblue;
+  color: #666;
 }
 
 a:hover {
-  color: darkblue;
+  color: #000;
 }
 
 .header {
   background: #357;
   color: white;
   padding: 10px 20px;
-  border-bottom: 2px solid dodgerblue;
+  border-bottom: 5px solid dodgerblue;
   text-align: center;
+}
+
+.title {
+  font-size: 20px;
+  margin: 5px auto 10px;
+  text-transform: capitalize;
 }
 
 .label {
@@ -37,22 +43,14 @@ a:hover {
 
 .input,
 .button {
-  border: 2px solid dodgerblue;
+  background: #FFF;
+  border: none;
   padding: 2px 5px;
   color: #333;
-  transition: border-color 0.2s ease-in;
-}
-
-.input:focus {
-  border-color: darkblue;
 }
 
 .button {
   text-transform: uppercase;
-}
-
-.button:hover {
-  border-color: darkblue;
 }
 
 .results {
@@ -95,11 +93,11 @@ a:hover {
 }
 
 .table-nfl .table-header-row th {
-  border-color: #c00;
+  border-color: #d50a0a;
 }
 
 .table-nfl .table-row:hover {
-  background: #9cafc5;
+  background: #eee;
   color: black;
 }
 
@@ -131,15 +129,23 @@ a:hover {
 }
 
 /* MLB */
-.table-nba .table-header-row {
+.table-mlb .table-header-row {
   background: #002e6c;
 }
 
-.table-nba .table-header-row th {
+.table-mlb .table-header-row th {
   border-color: #d50032;
 }
 
-.table-nba .table-row:hover {
+.table-mlb .table-row:hover {
   background: #e2e2e2;
   color: black;
+}
+
+.team-color {
+  display: inline-block;
+  width: 15px;
+  height: 12px;
+  border: 1px solid black;
+  margin: 0 1px;
 }
