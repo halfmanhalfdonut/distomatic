@@ -248,7 +248,7 @@ const NFL = [
     division: 'North',
     location: {
       latitude: '44.501',
-      longitude: '-80.062',
+      longitude: '-88.062',
       address: 'Green Bay, Wisconsin'
     }
   },

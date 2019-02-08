@@ -2,9 +2,20 @@
 <html>
   <head>
     <title>Who are the closest professional teams?</title>
+    <link rel="stylesheet" href="app.css">
   </head>
   <body>
-    <div id="results"></div>
+    <header class="header">
+      <form id="search" name="search">
+        <label class="label" for="latitude">Latitude</label>
+        <input type="text" id="latitude" name="latitude" class="input">
+        <label class="label" for="longitude">Longitude</label>
+        <input type="text" id="longitude" name="longitude" class="input">
+        <button id="button" type="submit" class="button">Go!</button>
+      </form>
+    </header>
+
+    <div id="results" class="results"></div>
     <script type="module" src="app.js"></script>
   </body>
 </html>
