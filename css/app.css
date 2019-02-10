@@ -83,8 +83,8 @@ a:hover {
 }
 
 .table-row:hover {
-  background: dodgerblue;
-  color: white;
+  background: #e2e2e2;
+  color: black;
 }
 
 /* NFL */
@@ -94,11 +94,6 @@ a:hover {
 
 .table-nfl .table-header-row th {
   border-color: #d50a0a;
-}
-
-.table-nfl .table-row:hover {
-  background: #eee;
-  color: black;
 }
 
 /* NHL */
@@ -111,10 +106,6 @@ a:hover {
   border-color: black;
 }
 
-.table-nhl .table-row:hover {
-  background: #f69e20;
-}
-
 /* NBA */
 .table-nba .table-header-row {
   background: #1D428A;
@@ -122,10 +113,6 @@ a:hover {
 
 .table-nba .table-header-row th {
   border-color: #c8102e;
-}
-
-.table-nba .table-row:hover {
-  background: #0b153c;
 }
 
 /* MLB */
@@ -137,9 +124,13 @@ a:hover {
   border-color: #d50032;
 }
 
-.table-mlb .table-row:hover {
-  background: #e2e2e2;
-  color: black;
+/* AAF */
+.table-aaf .table-header-row {
+  background: #002e6c;
+}
+
+.table-aaf .table-header-row th {
+  border-color: #cd0e2d;
 }
 
 .team-color {

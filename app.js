@@ -61,15 +61,17 @@ class App {
 
   render(leagues) {
     this.results.innerHTML = '';
+
     Object.keys(leagues).forEach(key => {
-      let html = `<table class="table table-${key.toLowerCase()}">`;
-      html += `<tr class="table-header-row">
-        <th>${key}</th>
-        <th>Team</th>
-        <th>Distance</th>
-        <th>City</th>
-        <th>Colors</th>
-      </tr>`;
+      let lowerKey = key.toLowerCase();
+      let html = `<table class="table table-${lowerKey}">
+        <tr class="table-header-row">
+          <th><a name="league-${lowerKey}></a>${key}</th>
+          <th>Team</th>
+          <th>Distance</th>
+          <th>City</th>
+          <th>Colors</th>
+        </tr>`;
 
       let teams = leagues[key];
 

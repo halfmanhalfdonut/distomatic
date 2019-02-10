@@ -1,4 +1,4 @@
-import { NFL, NHL, NBA, MLB } from '../../data/index.js';
+import { NFL, NHL, NBA, MLB, AAF } from '../../data/index.js';
 import Distance from '../Distance/Distance.js';
 
 const sports = [
@@ -17,6 +17,10 @@ const sports = [
   {
     league: 'MLB',
     data: MLB
+  },
+  {
+    league: 'AAF',
+    data: AAF
   }
 ];
 
