@@ -10,6 +10,7 @@ const MLS = {
       isNicknameFirst: false,
       conference: 'Eastern',
       division: '',
+      website: 'https://atlutd.com/',
       location: {
         latitude: '33.755',
         longitude: '-84.401',
@@ -27,6 +28,7 @@ const MLS = {
       isNicknameFirst: false,
       conference: 'Eastern',
       division: '',
+      website: 'https://www.chicago-fire.com/',
       location: {
         latitude: '41.764722',
         longitude: '-87.806111',
@@ -44,6 +46,7 @@ const MLS = {
       isNicknameFirst: true,
       conference: 'Eastern',
       division: '',
+      website: 'https://www.fccincinnati.com/',
       location: {
         latitude: '39.131',
         longitude: '-84.516',
@@ -61,6 +64,7 @@ const MLS = {
       isNicknameFirst: false,
       conference: 'Eastern',
       division: '',
+      website: 'https://www.columbuscrewsc.com/',
       location: {
         latitude: '40.009444',
         longitude: '-82.991111',
@@ -77,6 +81,7 @@ const MLS = {
       isNicknameFirst: false,
       conference: 'Eastern',
       division: '',
+      website: 'https://www.dcunited.com/',
       location: {
         latitude: '38.868333',
         longitude: '-77.012222',
@@ -94,6 +99,7 @@ const MLS = {
       isNicknameFirst: false,
       conference: 'Eastern',
       division: '',
+      website: 'https://www.impactmontreal.com/',
       location: {
         latitude: '45.563056',
         longitude: '-73.5525',
@@ -112,6 +118,7 @@ const MLS = {
       isNicknameFirst: false,
       conference: 'Eastern',
       division: '',
+      website: 'https://www.revolutionsoccer.net/',
       location: {
         latitude: '42.090944',
         longitude: '-71.264344',
@@ -129,6 +136,7 @@ const MLS = {
       isNicknameFirst: false,
       conference: 'Eastern',
       division: '',
+      website: 'https://www.nycfc.com/',
       location: {
         latitude: '40.829167',
         longitude: '-73.926389',
@@ -146,6 +154,7 @@ const MLS = {
       isNicknameFirst: false,
       conference: 'Eastern',
       division: '',
+      website: 'https://www.newyorkredbulls.com/',
       location: {
         latitude: '40.736667',
         longitude: '-74.150278',
@@ -163,6 +172,7 @@ const MLS = {
       isNicknameFirst: false,
       conference: 'Eastern',
       division: '',
+      website: 'https://www.orlandocitysc.com/',
       location: {
         latitude: '28.541065',
         longitude: '-81.389035',
@@ -180,6 +190,7 @@ const MLS = {
       isNicknameFirst: false,
       conference: 'Eastern',
       division: '',
+      website: 'https://www.philadelphiaunion.com/',
       location: {
         latitude: '39.832222',
         longitude: '-75.378889',
@@ -197,6 +208,7 @@ const MLS = {
       isNicknameFirst: false,
       conference: 'Eastern',
       division: '',
+      website: 'https://www.torontofc.ca/',
       location: {
         latitude: '43.632778',
         longitude: '-79.418611',
@@ -214,6 +226,7 @@ const MLS = {
       isNicknameFirst: false,
       conference: 'Western',
       division: '',
+      website: 'https://www.coloradorapids.com/',
       location: {
         latitude: '39.805556',
         longitude: '-104.891944',
@@ -231,6 +244,7 @@ const MLS = {
       isNicknameFirst: true,
       conference: 'Western',
       division: '',
+      website: 'https://www.fcdallas.com/',
       location: {
         latitude: '33.154444',
         longitude: '-96.835278',
@@ -248,6 +262,7 @@ const MLS = {
       isNicknameFirst: false,
       conference: 'Western',
       division: '',
+      website: 'https://www.houstondynamo.com/',
       location: {
         latitude: '29.7522',
         longitude: '-95.3524',
@@ -265,6 +280,7 @@ const MLS = {
       isNicknameFirst: false,
       conference: 'Western',
       division: '',
+      website: 'https://www.lagalaxy.com/',
       location: {
         latitude: '33.864',
         longitude: '-118.261',
@@ -283,6 +299,7 @@ const MLS = {
       isNicknameFirst: false,
       conference: 'Western',
       division: '',
+      website: 'https://www.lafc.com/',
       location: {
         latitude: '34.013',
         longitude: '-118.285',
@@ -300,6 +317,7 @@ const MLS = {
       isNicknameFirst: false,
       conference: 'Western',
       division: '',
+      website: 'https://www.mnufc.com/',
       location: {
         latitude: '44.952778',
         longitude: '-93.165',
@@ -317,6 +335,7 @@ const MLS = {
       isNicknameFirst: false,
       conference: 'Western',
       division: '',
+      website: 'https://www.timbers.com/',
       location: {
         latitude: '45.521389',
         longitude: '-122.691667',
@@ -334,6 +353,7 @@ const MLS = {
       isNicknameFirst: true,
       conference: 'Western',
       division: '',
+      website: 'https://www.rsl.com/',
       location: {
         latitude: '40.582923',
         longitude: '-111.893156',
@@ -352,6 +372,7 @@ const MLS = {
       isNicknameFirst: false,
       conference: 'Western',
       division: '',
+      website: 'https://www.sjearthquakes.com/',
       location: {
         latitude: '37.351389',
         longitude: '-121.925',
@@ -369,6 +390,7 @@ const MLS = {
       isNicknameFirst: false,
       conference: 'Western',
       division: '',
+      website: 'https://www.soundersfc.com/',
       location: {
         latitude: '47.5952',
         longitude: '-122.3316',
@@ -386,6 +408,7 @@ const MLS = {
       isNicknameFirst: false,
       conference: 'Western',
       division: '',
+      website: 'https://www.sportingkc.com/',
       location: {
         latitude: '39.1218',
         longitude: '-94.8237',
@@ -404,6 +427,7 @@ const MLS = {
       isNicknameFirst: false,
       conference: 'Western',
       division: '',
+      website: 'https://www.whitecapsfc.com/',
       location: {
         latitude: '49.276667',
         longitude: '-123.111944',

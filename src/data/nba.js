@@ -9,6 +9,7 @@ const NBA = {
       name: 'Celtics',
       conference: 'Eastern',
       division: 'Atlantic',
+      website: 'https://www.nba.com/celtics',
       location: {
         latitude: '42.366',
         longitude: '-71.062',
@@ -27,6 +28,7 @@ const NBA = {
       name: 'Nets',
       conference: 'Eastern',
       division: 'Atlantic',
+      website: 'https://www.nba.com/nets',
       location: {
         latitude: '40.682',
         longitude: '-73.974',
@@ -42,6 +44,7 @@ const NBA = {
       name: 'Knicks',
       conference: 'Eastern',
       division: 'Atlantic',
+      website: 'https://www.nba.com/knicks',
       location: {
         latitude: '40.750',
         longitude: '-73.993',
@@ -60,6 +63,7 @@ const NBA = {
       name: '76ers',
       conference: 'Eastern',
       division: 'Atlantic',
+      website: 'https://www.nba.com/sixers',
       location: {
         latitude: '39.901',
         longitude: '-75.171',
@@ -78,6 +82,7 @@ const NBA = {
       name: 'Raptors',
       conference: 'Eastern',
       division: 'Atlantic',
+      website: 'https://www.nba.com/raptors',
       location: {
         latitude: '43.643',
         longitude: '-79.379',
@@ -96,6 +101,7 @@ const NBA = {
       name: 'Bulls',
       conference: 'Eastern',
       division: 'Central',
+      website: 'https://www.nba.com/bulls',
       location: {
         latitude: '41.880',
         longitude: '-87.674',
@@ -112,6 +118,7 @@ const NBA = {
       name: 'Cavaliers',
       conference: 'Eastern',
       division: 'Central',
+      website: 'https://www.nba.com/cavaliers',
       location: {
         latitude: '41.496',
         longitude: '-81.688',
@@ -129,6 +136,7 @@ const NBA = {
       name: 'Pistons',
       conference: 'Eastern',
       division: 'Central',
+      website: 'https://www.nba.com/pistons',
       location: {
         latitude: '42.696',
         longitude: '-83.245',
@@ -147,6 +155,7 @@ const NBA = {
       name: 'Pacers',
       conference: 'Eastern',
       division: 'Central',
+      website: 'https://www.nba.com/pacers',
       location: {
         latitude: '39.763',
         longitude: '-86.155',
@@ -163,6 +172,7 @@ const NBA = {
       name: 'Bucks',
       conference: 'Eastern',
       division: 'Central',
+      website: 'https://www.nba.com/bucks',
       location: {
         latitude: '43.043',
         longitude: '-87.916',
@@ -181,6 +191,7 @@ const NBA = {
       name: 'Hawks',
       conference: 'Eastern',
       division: 'Southeast',
+      website: 'https://www.nba.com/hawks',
       location: {
         latitude: '33.757',
         longitude: '-84.396',
@@ -197,6 +208,7 @@ const NBA = {
       name: 'Hornets',
       conference: 'Eastern',
       division: 'Southeast',
+      website: 'https://www.nba.com/hornets',
       location: {
         latitude: '35.225',
         longitude: '-80.839',
@@ -214,6 +226,7 @@ const NBA = {
       name: 'Heat',
       conference: 'Eastern',
       division: 'Southeast',
+      website: 'https://www.nba.com/heat',
       location: {
         latitude: '25.781',
         longitude: '-80.188',
@@ -230,6 +243,7 @@ const NBA = {
       name: 'Magic',
       conference: 'Eastern',
       division: 'Southeast',
+      website: 'https://www.nba.com/magic',
       location: {
         latitude: '28.539',
         longitude: '-81.383',
@@ -246,6 +260,7 @@ const NBA = {
       name: 'Wizards',
       conference: 'Eastern',
       division: 'Southeast',
+      website: 'https://www.nba.com/wizards',
       location: {
         latitude: '38.898',
         longitude: '-77.020',
@@ -263,6 +278,7 @@ const NBA = {
       name: 'Nuggets',
       conference: 'Western',
       division: 'Northwest',
+      website: 'https://www.nba.com/nuggets',
       location: {
         latitude: '39.748',
         longitude: '-105.007',
@@ -280,6 +296,7 @@ const NBA = {
       name: 'Timberwolves',
       conference: 'Western',
       division: 'Northwest',
+      website: 'https://www.nba.com/timberwolves',
       location: {
         latitude: '44.979',
         longitude: '-93.276',
@@ -298,6 +315,7 @@ const NBA = {
       name: 'Thunder',
       conference: 'Western',
       division: 'Northwest',
+      website: 'https://www.nba.com/thunder',
       location: {
         latitude: '35.463',
         longitude: '-97.515',
@@ -315,6 +333,7 @@ const NBA = {
       name: 'Trail Blazers',
       conference: 'Western',
       division: 'Northwest',
+      website: 'https://www.nba.com/blazers',
       location: {
         latitude: '45.531',
         longitude: '-122.666',
@@ -331,6 +350,7 @@ const NBA = {
       name: 'Jazz',
       conference: 'Western',
       division: 'Northwest',
+      website: 'https://www.nba.com/jazz',
       location: {
         latitude: '40.768',
         longitude: '-111.901',
@@ -347,6 +367,7 @@ const NBA = {
       name: 'Warriors',
       conference: 'Western',
       division: 'Pacific',
+      website: 'https://www.nba.com/warriors',
       location: {
         latitude: '37.750',
         longitude: '-122.203',
@@ -363,6 +384,7 @@ const NBA = {
       name: 'Clippers',
       conference: 'Western',
       division: 'Pacific',
+      website: 'https://www.nba.com/clippers',
       location: {
         latitude: '34.043',
         longitude: '-118.267',
@@ -381,6 +403,7 @@ const NBA = {
       name: 'Lakers',
       conference: 'Western',
       division: 'Pacific',
+      website: 'https://www.nba.com/lakers',
       location: {
         latitude: '34.043',
         longitude: '-118.267',
@@ -398,6 +421,7 @@ const NBA = {
       name: 'Suns',
       conference: 'Western',
       division: 'Pacific',
+      website: 'https://www.nba.com/suns',
       location: {
         latitude: '33.445',
         longitude: '-112.071',
@@ -416,6 +440,7 @@ const NBA = {
       name: 'Kings',
       conference: 'Western',
       division: 'Pacific',
+      website: 'https://www.nba.com/kings',
       location: {
         latitude: '38.649',
         longitude: '-121.518',
@@ -432,6 +457,7 @@ const NBA = {
       name: 'Mavericks',
       conference: 'Western',
       division: 'Southwest',
+      website: 'https://www.nba.com/mavericks',
       location: {
         latitude: '32.790',
         longitude: '-96.810',
@@ -449,6 +475,7 @@ const NBA = {
       name: 'Rockets',
       conference: 'Western',
       division: 'Southwest',
+      website: 'https://www.nba.com/rockets',
       location: {
         latitude: '29.750',
         longitude: '-95.362',
@@ -466,6 +493,7 @@ const NBA = {
       name: 'Grizzlies',
       conference: 'Western',
       division: 'Southwest',
+      website: 'https://www.nba.com/grizzlies',
       location: {
         latitude: '35.138',
         longitude: '-90.050',
@@ -483,6 +511,7 @@ const NBA = {
       name: 'Pelicans',
       conference: 'Western',
       division: 'Southwest',
+      website: 'https://www.nba.com/pelicans',
       location: {
         latitude: '29.948',
         longitude: '-90.081',
@@ -499,6 +528,7 @@ const NBA = {
       name: 'Spurs',
       conference: 'Western',
       division: 'Southwest',
+      website: 'https://www.nba.com/spurs',
       location: {
         latitude: '29.426',
         longitude: '-98.437',

@@ -9,6 +9,7 @@ const NHL = {
       name: 'Bruins',
       conference: 'Eastern',
       division: 'Atlantic',
+      website: 'https://www.nhl.com/bruins',
       location: {
         latitude: '42.366',
         longitude: '-71.062',
@@ -24,6 +25,7 @@ const NHL = {
       name: 'Sabres',
       conference: 'Eastern',
       division: 'Atlantic',
+      website: 'https://www.nhl.com/sabres',
       location: {
         latitude: '42.875',
         longitude: '-78.876',
@@ -40,6 +42,7 @@ const NHL = {
       name: 'Red Wings',
       conference: 'Eastern',
       division: 'Atlantic',
+      website: 'https://www.nhl.com/redwings',
       location: {
         latitude: '42.341',
         longitude: '-83.055',
@@ -55,6 +58,7 @@ const NHL = {
       name: 'Panthers',
       conference: 'Eastern',
       division: 'Atlantic',
+      website: 'https://www.nhl.com/panthers',
       location: {
         latitude: '26.158',
         longitude: '-80.325',
@@ -71,6 +75,7 @@ const NHL = {
       name: 'Canadiens',
       conference: 'Eastern',
       division: 'Atlantic',
+      website: 'https://www.nhl.com/canadiens',
       location: {
         latitude: '45.496',
         longitude: '-73.569',
@@ -87,6 +92,7 @@ const NHL = {
       name: 'Senators',
       conference: 'Eastern',
       division: 'Atlantic',
+      website: 'https://www.nhl.com/senators',
       location: {
         latitude: '45.296',
         longitude: '-75.927',
@@ -104,6 +110,7 @@ const NHL = {
       name: 'Lightning',
       conference: 'Eastern',
       division: 'Atlantic',
+      website: 'https://www.nhl.com/lightning',
       location: {
         latitude: '27.842',
         longitude: '-82.451',
@@ -119,6 +126,7 @@ const NHL = {
       name: 'Maple Leafs',
       conference: 'Eastern',
       division: 'Atlantic',
+      website: 'https://www.nhl.com/mapleleafs',
       location: {
         latitude: '43.643',
         longitude: '-79.379',
@@ -134,6 +142,7 @@ const NHL = {
       name: 'Hurricanes',
       conference: 'Eastern',
       division: 'Metropolitan',
+      website: 'https://www.nhl.com/hurricanes',
       location: {
         latitude: '35.803',
         longitude: '-78.721',
@@ -151,6 +160,7 @@ const NHL = {
       name: 'Blue Jackets',
       conference: 'Eastern',
       division: 'Metropolitan',
+      website: 'https://www.nhl.com/bluejackets',
       location: {
         latitude: '39.969',
         longitude: '-83.006',
@@ -167,6 +177,7 @@ const NHL = {
       name: 'Devils',
       conference: 'Eastern',
       division: 'Metropolitan',
+      website: 'https://www.nhl.com/devils',
       location: {
         latitude: '40.733',
         longitude: '-74.171',
@@ -183,6 +194,7 @@ const NHL = {
       name: 'Islanders',
       conference: 'Eastern',
       division: 'Metropolitan',
+      website: 'https://www.nhl.com/islanders',
       location: {
         latitude: '40.682',
         longitude: '-73.974',
@@ -199,6 +211,7 @@ const NHL = {
       name: 'Rangers',
       conference: 'Eastern',
       division: 'Metropolitan',
+      website: 'https://www.nhl.com/rangers',
       location: {
         latitude: '40.750',
         longitude: '-73.993',
@@ -215,6 +228,7 @@ const NHL = {
       name: 'Flyers',
       conference: 'Eastern',
       division: 'Metropolitan',
+      website: 'https://www.nhl.com/flyers',
       location: {
         latitude: '39.901',
         longitude: '-75.171',
@@ -231,6 +245,7 @@ const NHL = {
       name: 'Penguins',
       conference: 'Eastern',
       division: 'Metropolitan',
+      website: 'https://www.nhl.com/penguins',
       location: {
         latitude: '40.439',
         longitude: '-79.989',
@@ -247,6 +262,7 @@ const NHL = {
       name: 'Capitals',
       conference: 'Eastern',
       division: 'Metropolitan',
+      website: 'https://www.nhl.com/capitals',
       location: {
         latitude: '38.898',
         longitude: '-77.020',
@@ -263,6 +279,7 @@ const NHL = {
       name: 'Blackhawks',
       conference: 'Western',
       division: 'Central',
+      website: 'https://www.nhl.com/blackhawks',
       location: {
         latitude: '41.880',
         longitude: '-87.674',
@@ -279,6 +296,7 @@ const NHL = {
       name: 'Avalanche',
       conference: 'Western',
       division: 'Central',
+      website: 'https://www.nhl.com/avalanche',
       location: {
         latitude: '39.748',
         longitude: '-105.007',
@@ -296,6 +314,7 @@ const NHL = {
       name: 'Stars',
       conference: 'Western',
       division: 'Central',
+      website: 'https://www.nhl.com/stars',
       location: {
         latitude: '32.790',
         longitude: '-96.810',
@@ -313,6 +332,7 @@ const NHL = {
       name: 'Wild',
       conference: 'Western',
       division: 'Central',
+      website: 'https://www.nhl.com/wild',
       location: {
         latitude: '44.944',
         longitude: '-93.101',
@@ -330,6 +350,7 @@ const NHL = {
       name: 'Predators',
       conference: 'Western',
       division: 'Central',
+      website: 'https://www.nhl.com/predators',
       location: {
         latitude: '36.159',
         longitude: '-86.778',
@@ -346,6 +367,7 @@ const NHL = {
       name: 'Blues',
       conference: 'Western',
       division: 'Central',
+      website: 'https://www.nhl.com/blues',
       location: {
         latitude: '38.626',
         longitude: '-90.202',
@@ -363,6 +385,7 @@ const NHL = {
       name: 'Jets',
       conference: 'Western',
       division: 'Central',
+      website: 'https://www.nhl.com/jets',
       location: {
         latitude: '49.892',
         longitude: '-97.143',
@@ -381,6 +404,7 @@ const NHL = {
       name: 'Ducks',
       conference: 'Western',
       division: 'Pacific',
+      website: 'https://www.nhl.com/ducks',
       location: {
         latitude: '33.807',
         longitude: '-117.876',
@@ -398,6 +422,7 @@ const NHL = {
       name: 'Coyotes',
       conference: 'Western',
       division: 'Pacific',
+      website: 'https://www.nhl.com/coyotes',
       location: {
         latitude: '33.531',
         longitude: '-112.261',
@@ -414,6 +439,7 @@ const NHL = {
       name: 'Flames',
       conference: 'Western',
       division: 'Pacific',
+      website: 'https://www.nhl.com/flames',
       location: {
         latitude: '51.037',
         longitude: '-114.051',
@@ -431,6 +457,7 @@ const NHL = {
       name: 'Oilers',
       conference: 'Western',
       division: 'Pacific',
+      website: 'https://www.nhl.com/oilers',
       location: {
         latitude: '53.546',
         longitude: '-113.497',
@@ -447,6 +474,7 @@ const NHL = {
       name: 'Kings',
       conference: 'Western',
       division: 'Pacific',
+      website: 'https://www.nhl.com/kings',
       location: {
         latitude: '34.043',
         longitude: '-118.267',
@@ -463,6 +491,7 @@ const NHL = {
       name: 'Sharks',
       conference: 'Western',
       division: 'Pacific',
+      website: 'https://www.nhl.com/sharks',
       location: {
         latitude: '37.332',
         longitude: '-121.901',
@@ -479,6 +508,7 @@ const NHL = {
       name: 'Canucks',
       conference: 'Western',
       division: 'Pacific',
+      website: 'https://www.nhl.com/canucks',
       location: {
         latitude: '49.277',
         longitude: '-123.108',
@@ -495,6 +525,7 @@ const NHL = {
       name: 'Golden Knights',
       conference: 'Western',
       division: 'Pacific',
+      website: 'https://www.nhl.com/goldenknights',
       location: {
         latitude: '36.102',
         longitude: '-115.178',

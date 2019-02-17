@@ -9,6 +9,7 @@ const MLB = {
       name: 'Orioles',
       conference: 'American',
       division: 'East',
+      website: 'https://www.mlb.com/orioles',
       location: {
         latitude: '39.283',
         longitude: '-76.621',
@@ -26,6 +27,7 @@ const MLB = {
       name: 'Red Sox',
       conference: 'American',
       division: 'East',
+      website: 'https://www.mlb.com/redsox',
       location: {
         latitude: '42.346',
         longitude: '-71.097',
@@ -42,6 +44,7 @@ const MLB = {
       name: 'Yankees',
       conference: 'American',
       division: 'East',
+      website: 'https://www.mlb.com/yankees',
       location: {
         latitude: '40.829',
         longitude: '-73.926',
@@ -58,6 +61,7 @@ const MLB = {
       name: 'Rays',
       conference: 'American',
       division: 'East',
+      website: 'https://www.mlb.com/rays',
       location: {
         latitude: '27.768',
         longitude: '-82.653',
@@ -75,6 +79,7 @@ const MLB = {
       name: 'Blue Jays',
       conference: 'American',
       division: 'East',
+      website: 'https://www.mlb.com/bluejays',
       location: {
         latitude: '43.641',
         longitude: '-79.389',
@@ -92,6 +97,7 @@ const MLB = {
       name: 'White Sox',
       conference: 'American',
       division: 'Central',
+      website: 'https://www.mlb.com/whitesox',
       location: {
         latitude: '41.830',
         longitude: '-87.633',
@@ -108,6 +114,7 @@ const MLB = {
       name: 'Indians',
       conference: 'American',
       division: 'Central',
+      website: 'https://www.mlb.com/indians',
       location: {
         latitude: '41.495',
         longitude: '-81.685',
@@ -124,6 +131,7 @@ const MLB = {
       name: 'Tigers',
       conference: 'American',
       division: 'Central',
+      website: 'https://www.mlb.com/tigers',
       location: {
         latitude: '42.339',
         longitude: '-83.048',
@@ -140,6 +148,7 @@ const MLB = {
       name: 'Royals',
       conference: 'American',
       division: 'Central',
+      website: 'https://www.mlb.com/royals',
       location: {
         latitude: '39.051',
         longitude: '-94.480',
@@ -157,6 +166,7 @@ const MLB = {
       name: 'Twins',
       conference: 'American',
       division: 'Central',
+      website: 'https://www.mlb.com/twins',
       location: {
         latitude: '44.981',
         longitude: '-93.278',
@@ -174,6 +184,7 @@ const MLB = {
       name: 'Astros',
       conference: 'American',
       division: 'West',
+      website: 'https://www.mlb.com/astros',
       location: {
         latitude: '29.756',
         longitude: '-95.355',
@@ -190,6 +201,7 @@ const MLB = {
       name: 'Angels',
       conference: 'American',
       division: 'West',
+      website: 'https://www.mlb.com/angels',
       location: {
         latitude: '33.800',
         longitude: '-117.882',
@@ -206,6 +218,7 @@ const MLB = {
       name: 'Athletics',
       conference: 'American',
       division: 'West',
+      website: 'https://www.mlb.com/athletics',
       location: {
         latitude: '37.751',
         longitude: '-122.200',
@@ -222,6 +235,7 @@ const MLB = {
       name: 'Mariners',
       conference: 'American',
       division: 'West',
+      website: 'https://www.mlb.com/mariners',
       location: {
         latitude: '47.591',
         longitude: '-122.332',
@@ -241,6 +255,7 @@ const MLB = {
       name: 'Rangers',
       conference: 'American',
       division: 'West',
+      website: 'https://www.mlb.com/rangers',
       location: {
         latitude: '32.751',
         longitude: '-97.082',
@@ -257,6 +272,7 @@ const MLB = {
       name: 'Braves',
       conference: 'National',
       division: 'East',
+      website: 'https://www.mlb.com/braves',
       location: {
         latitude: '33.890',
         longitude: '-84.467',
@@ -273,6 +289,7 @@ const MLB = {
       name: 'Marlins',
       conference: 'National',
       division: 'East',
+      website: 'https://www.mlb.com/marlins',
       location: {
         latitude: '25.778',
         longitude: '-80.219',
@@ -290,6 +307,7 @@ const MLB = {
       name: 'Mets',
       conference: 'National',
       division: 'East',
+      website: 'https://www.mlb.com/mets',
       location: {
         latitude: '40.756',
         longitude: '-73.845',
@@ -306,6 +324,7 @@ const MLB = {
       name: 'Phillies',
       conference: 'National',
       division: 'East',
+      website: 'https://www.mlb.com/phillies',
       location: {
         latitude: '39.905',
         longitude: '-75.166',
@@ -322,6 +341,7 @@ const MLB = {
       name: 'Nationals',
       conference: 'National',
       division: 'East',
+      website: 'https://www.mlb.com/nationals',
       location: {
         latitude: '38.872',
         longitude: '-77.007',
@@ -338,6 +358,7 @@ const MLB = {
       name: 'Cubs',
       conference: 'National',
       division: 'Central',
+      website: 'https://www.mlb.com/cubs',
       location: {
         latitude: '41.948',
         longitude: '-87.655',
@@ -354,6 +375,7 @@ const MLB = {
       name: 'Reds',
       conference: 'National',
       division: 'Central',
+      website: 'https://www.mlb.com/reds',
       location: {
         latitude: '39.097',
         longitude: '-84.506',
@@ -370,6 +392,7 @@ const MLB = {
       name: 'Brewers',
       conference: 'National',
       division: 'Central',
+      website: 'https://www.mlb.com/brewers',
       location: {
         latitude: '43.028',
         longitude: '-87.971',
@@ -386,6 +409,7 @@ const MLB = {
       name: 'Pirates',
       conference: 'National',
       division: 'Central',
+      website: 'https://www.mlb.com/pirates',
       location: {
         latitude: '40.446',
         longitude: '-80.005',
@@ -402,6 +426,7 @@ const MLB = {
       name: 'Cardinals',
       conference: 'National',
       division: 'Central',
+      website: 'https://www.mlb.com/cardinals',
       location: {
         latitude: '38.622',
         longitude: '-90.193',
@@ -419,6 +444,7 @@ const MLB = {
       name: 'Diamondbacks',
       conference: 'National',
       division: 'West',
+      website: 'https://www.mlb.com/diamondbacks',
       location: {
         latitude: '33.445',
         longitude: '-112.006',
@@ -437,6 +463,7 @@ const MLB = {
       name: 'Rockies',
       conference: 'National',
       division: 'West',
+      website: 'https://www.mlb.com/rockies',
       location: {
         latitude: '39.756',
         longitude: '-104.994',
@@ -453,6 +480,7 @@ const MLB = {
       name: 'Dodgers',
       conference: 'National',
       division: 'West',
+      website: 'https://www.mlb.com/dodgers',
       location: {
         latitude: '34.073',
         longitude: '-118.240',
@@ -469,6 +497,7 @@ const MLB = {
       name: 'Padres',
       conference: 'National',
       division: 'West',
+      website: 'https://www.mlb.com/padres',
       location: {
         latitude: '32.707',
         longitude: '-117.156',
@@ -484,6 +513,7 @@ const MLB = {
       name: 'Giants',
       conference: 'National',
       division: 'West',
+      website: 'https://www.mlb.com/giants',
       location: {
         latitude: '37.778',
         longitude: '-122.389',

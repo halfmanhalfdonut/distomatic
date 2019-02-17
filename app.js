@@ -13,12 +13,11 @@ class App {
     this.render = this.render.bind(this);
     this.handleGo = this.handleGo.bind(this);
     this.handleFilter = this.handleFilter.bind(this);
+    this.toggleSport = this.toggleSport.bind(this);
 
     this.search.addEventListener('submit', this.handleGo);
-    this.filter.addEventListener('submit', this.handleFilter);
+    this.nav.addEventListener('click', this.handleFilter);
 
-    this.sport = 'all';
-    this.league = 'all';
     this.distomatic = null;
 
     if (navigator.geolocation) {
@@ -31,23 +30,21 @@ class App {
   setupElements() {
     this.results = document.getElementById('results');
     this.search = document.getElementById('search');
-    this.filter = document.getElementById('filter');
+    this.nav = document.getElementById('nav');
     this.latitude = document.getElementById('latitude');
     this.longitude = document.getElementById('longitude');
     this.button = document.getElementById('button');
   }
 
   handlePosition(position) {
-    this.latitude.value = position.coords.latitude.toFixed(3);
-    this.longitude.value = position.coords.longitude.toFixed(3);
+    this.latitude.value = parseFloat(position.coords.latitude).toFixed(3);
+    this.longitude.value = parseFloat(position.coords.longitude).toFixed(3);
 
     if (!this.distomatic) {
       this.distomatic = new Distomatic();
     }
 
     this.distomatic.updateCoordinates(position.coords);
-
-    // TODO: Filter
     this.render(Object.keys(Leagues).map(key => Leagues[key]));
   }
 
@@ -74,12 +71,23 @@ class App {
   handleFilter(e) {
     e.preventDefault();
 
-    let [ sport, league ] = this.filter.elements;
-    console.log(sport, league);
+    let target = e.target;
+    let sport = target.getAttribute('data-sport');
+
+    e.target.classList.toggle('sport-visible');
+
+    if (sport) {
+      this.toggleSport(sport);
+    }
+  }
+
+  toggleSport(sport) {
+    document.querySelectorAll(`.sport-${sport}`).forEach(el => el.classList.toggle('hidden'));
   }
 
   render(leagues) {
     let leagueData = new League();
+    this.nav.innerHTML = new Nav().getHtml(leagues);
     this.results.innerHTML = leagues.reduce((memo, league) => {
       let orderedLeague = this.distomatic.getOrderedLeague(league);
       return memo += leagueData.getHtml(orderedLeague);

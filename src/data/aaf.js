@@ -9,6 +9,7 @@ const AAF = {
       name: 'Legends',
       conference: 'Eastern',
       division: '',
+      website: 'https://aaf.com/atlanta-legends/',
       location: {
         latitude: '33.735',
         longitude: '-84.389',
@@ -25,6 +26,7 @@ const AAF = {
       name: 'Iron',
       conference: 'Eastern',
       division: '',
+      website: 'https://aaf.com/birmingham-iron/',
       location: {
         latitude: '33.511',
         longitude: '-86.842',
@@ -41,6 +43,7 @@ const AAF = {
       name: 'Express',
       conference: 'Eastern',
       division: '',
+      website: 'https://aaf.com/memphis-express/',
       location: {
         latitude: '35.121',
         longitude: '-89.977',
@@ -57,6 +60,7 @@ const AAF = {
       name: 'Apollos',
       conference: 'Eastern',
       division: '',
+      website: 'https://aaf.com/orlando-apollos/',
       location: {
         latitude: '28.609',
         longitude: '-81.192',
@@ -73,6 +77,7 @@ const AAF = {
       name: 'Hotshots',
       conference: 'Western',
       division: '',
+      website: 'https://aaf.com/arizona-hotshots/',
       location: {
         latitude: '33.426',
         longitude: '-111.932',
@@ -89,6 +94,7 @@ const AAF = {
       name: 'Stallions',
       conference: 'Western',
       division: '',
+      website: 'https://aaf.com/salt-lake-stallions/',
       location: {
         latitude: '40.760',
         longitude: '-111.849',
@@ -105,6 +111,7 @@ const AAF = {
       name: 'Commanders',
       conference: 'Western',
       division: '',
+      website: 'https://aaf.com/san-antonio-commanders/',
       location: {
         latitude: '29.416',
         longitude: '-98.478',
@@ -122,6 +129,7 @@ const AAF = {
       name: 'Fleet',
       conference: 'Western',
       division: '',
+      website: 'https://aaf.com/san-diego-fleet/',
       location: {
         latitude: '32.783',
         longitude: '-117.119',

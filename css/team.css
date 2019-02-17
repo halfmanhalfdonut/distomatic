@@ -3,6 +3,14 @@
   list-style: none;
   margin: 0;
   padding: 0;
+  height: 185px;
+  overflow: auto;
+}
+
+@media screen and (min-width: 960px) {
+  .teams {
+    height: 630px;
+  }
 }
 
 .team-item {
@@ -17,7 +25,7 @@
 .team {
   border-top: 2px solid #f3f3f3;
   position: relative;
-  padding: 20px 10px 20px;
+  padding: 5px 10px 20px;
 }
 
 .team-item:first-child .team {
@@ -26,6 +34,20 @@
 
 .team:hover {
   background: rgba(0, 0, 0, 0.025);
+  color: #357;
+}
+
+.team-meta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 10px;
+  margin-bottom: 20px;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.team-division {
+  text-align: right;
 }
 
 .team-name {
@@ -33,16 +55,24 @@
 }
 
 .team-name-heading {
-  font-size: 20px;
+  font-size: 28px;
   margin: 0 auto;
-  line-height: 13px;
+  line-height: 18px;
   color: #666;
 }
 
+.team:hover .team-name-heading {
+  color: #357;
+}
+
 .team-name-subheading {
-  font-size: 24px;
+  font-size: 42px;
   margin: 0 auto;
-  line-height: 24px;
+  line-height: 40px;
+}
+
+.team:hover .team-name-subheading {
+  color: dodgerblue;
 }
 
 .color-bar {
@@ -65,18 +95,22 @@
   text-align: center;
 }
 
-.address {
-  font-size: 16px;
-  text-align: right;
+.team-links {
+  margin-bottom: 0;
+}
+
+.address,
+.team-website {
+  text-align: center;
   padding: 10px 0;
 }
 
-.team-address {
-  margin-left: 5px;
+.team-link {
+  margin: 0 5px;
   text-decoration: none;
   color: #666;
 }
 
-.team-address:hover {
+.team-link:hover {
   color: #000000;
 }
