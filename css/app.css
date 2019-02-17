@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media screen and (min-width: 960px) {
   .results {
-    max-width: 960px;
+    max-width: 940px;
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
