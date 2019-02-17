@@ -1,4 +1,8 @@
+import * as Leagues from './src/data/index.js';
+
 import Distomatic from './src/components/Distomatic/Distomatic.js';
+import Nav from './src/components/Nav/Nav.js';
+import League from './src/components/League/League.js';
 
 class App {
   constructor() {
@@ -8,9 +12,14 @@ class App {
     this.handleError = this.handleError.bind(this);
     this.render = this.render.bind(this);
     this.handleGo = this.handleGo.bind(this);
-    this.renderColors = this.renderColors.bind(this);
+    this.handleFilter = this.handleFilter.bind(this);
 
     this.search.addEventListener('submit', this.handleGo);
+    this.filter.addEventListener('submit', this.handleFilter);
+
+    this.sport = 'all';
+    this.league = 'all';
+    this.distomatic = null;
 
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(this.handlePosition, this.handleError);
@@ -22,17 +31,24 @@ class App {
   setupElements() {
     this.results = document.getElementById('results');
     this.search = document.getElementById('search');
+    this.filter = document.getElementById('filter');
     this.latitude = document.getElementById('latitude');
     this.longitude = document.getElementById('longitude');
     this.button = document.getElementById('button');
   }
 
   handlePosition(position) {
-    this.latitude.value = position.coords.latitude;
-    this.longitude.value = position.coords.longitude;
+    this.latitude.value = position.coords.latitude.toFixed(3);
+    this.longitude.value = position.coords.longitude.toFixed(3);
 
-    let distomatic = new Distomatic(position.coords);
-    this.render(distomatic.getLeagues());
+    if (!this.distomatic) {
+      this.distomatic = new Distomatic();
+    }
+
+    this.distomatic.updateCoordinates(position.coords);
+
+    // TODO: Filter
+    this.render(Object.keys(Leagues).map(key => Leagues[key]));
   }
 
   handleError() {
@@ -55,39 +71,19 @@ class App {
     this.button.disabled = false;
   }
 
-  renderColors(colors) {
-    return colors.reduce((memo, color) => memo += `<span class="team-color" style="background-color: ${color}"></span>`, '');
+  handleFilter(e) {
+    e.preventDefault();
+
+    let [ sport, league ] = this.filter.elements;
+    console.log(sport, league);
   }
 
   render(leagues) {
-    this.results.innerHTML = '';
-
-    Object.keys(leagues).forEach(key => {
-      let lowerKey = key.toLowerCase();
-      let html = `<table class="table table-${lowerKey}">
-        <tr class="table-header-row">
-          <th><a name="league-${lowerKey}></a>${key}</th>
-          <th>Team</th>
-          <th>Distance</th>
-          <th>City</th>
-          <th>Colors</th>
-        </tr>`;
-
-      let teams = leagues[key];
-
-      teams.forEach((team, index) => {
-        html += `<tr class="table-row">
-          <td>${index + 1}</td>
-          <td>${team.team.city} ${team.team.name}</td>
-          <td>${Math.round(team.distance * 0.62137119)}mi (${team.distance}km)</td>
-          <td><a href="https://www.google.com/maps/search/?api=1&query=${team.team.location.latitude},${team.team.location.longitude}" target="team_location">${team.team.location.address}</a></td>
-          <td>${this.renderColors(team.team.colors)}</td>
-        </tr>`;
-      });
-
-      html += '</table>';
-      this.results.innerHTML += html;
-    });
+    let leagueData = new League();
+    this.results.innerHTML = leagues.reduce((memo, league) => {
+      let orderedLeague = this.distomatic.getOrderedLeague(league);
+      return memo += leagueData.getHtml(orderedLeague);
+    }, '');
   }
 }
 

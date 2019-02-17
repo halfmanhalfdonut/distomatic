@@ -1,0 +1,63 @@
+.header {
+  background: #357;
+  color: white;
+  padding: 10px 20px;
+  border-bottom: 5px solid dodgerblue;
+  text-align: center;
+}
+
+.search {
+  margin: 0 auto;
+  width: 300px;
+  display: grid;
+  grid-template-areas:
+    'title title title'
+    'label-latitude label-longitude .'
+    'input-latitude input-longitude button-go';
+  grid-column-gap: 10px;
+  grid-row-gap: 5px;
+  align-items: left;
+  align-content: center;
+  justify-items: left;
+}
+
+@media screen and (min-width: 640px) {
+  .search {
+    width: 400px;
+    grid-template-areas:
+    'title label-latitude label-longitude .'
+    'title input-latitude input-longitude button-go';
+  }
+}
+
+.title {
+  font-size: 24px;
+  text-transform: capitalize;
+  grid-area: title;
+  margin: 0;
+}
+
+.label-latitude {
+  grid-area: label-latitude;
+}
+
+.input-latitude {
+  grid-area: input-latitude;
+}
+
+.label-longitude {
+  grid-area: label-longitude;
+}
+
+.input-longitude {
+  grid-area: input-longitude;
+}
+
+.button-go {
+  grid-area: button-go;
+}
+
+.input-latitude,
+.input-longitude {
+  width: 100px;
+}

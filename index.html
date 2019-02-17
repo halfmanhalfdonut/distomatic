@@ -1,21 +1,25 @@
 <!doctype html>
 <html>
   <head>
-    <title>Who are the closest professional teams?</title>
+    <title>Distomatic - Who are the closest professional teams?</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Oswald" rel="stylesheet">
     <link rel="stylesheet" href="css/app.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <meta name="theme-color" content="#335577">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
     <header class="header">
-      <h1 class="title">Find your closest professional teams</h1>
-      <form id="search" name="search">
-        <label class="label" for="latitude">Latitude</label>
-        <input type="text" id="latitude" name="latitude" class="input">
-        <label class="label" for="longitude">Longitude</label>
-        <input type="text" id="longitude" name="longitude" class="input">
-        <button id="button" type="submit" class="button">Go!</button>
+      <form id="search" class="search">
+        <h1 class="title">Dist-o-matic</h1>
+        <label class="label label-latitude" for="latitude">Latitude</label>
+        <input type="text" id="latitude" name="latitude" class="input input-latitude">
+        <label class="label label-longitude" for="longitude">Longitude</label>
+        <input type="text" id="longitude" name="longitude" class="input input-longitude">
+        <button id="button" type="submit" class="button button-go">Go!</button>
       </form>
+      <form id="filter"></form>
     </header>
 
     <div id="results" class="results"></div>
