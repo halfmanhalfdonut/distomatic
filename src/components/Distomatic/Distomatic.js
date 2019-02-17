@@ -14,7 +14,7 @@ class Distomatic {
   }
 
   getOrderedLeague(league) {
-    let results = league.teams.reduce((memo, team) => {
+    let results = (league.teams || []).reduce((memo, team) => {
       let distance = ~~(this.distance.getDistance(this.latitude, this.longitude, team.location.latitude, team.location.longitude));
       memo.push(Object.assign({}, team, { distance: distance }));
       return memo;

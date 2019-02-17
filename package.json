@@ -1,0 +1,31 @@
+{
+  "name": "distomatic",
+  "version": "1.0.0",
+  "description": "Distomatic ---",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/halfmanhalfdonut/distomatic.git"
+  },
+  "author": "nick jurista <nick@inexact-scientist.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/halfmanhalfdonut/distomatic/issues"
+  },
+  "homepage": "https://gitlab.com/halfmanhalfdonut/distomatic#readme",
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/preset-env": "^7.3.1",
+    "babel-jest": "^24.1.0",
+    "jest": "^24.1.0"
+  },
+  "jest": {
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "<rootDir>/src/data/"
+    ]
+  }
+}
