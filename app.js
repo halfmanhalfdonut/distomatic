@@ -9,6 +9,7 @@ class App {
     this.setupElements();
 
     this.handlePosition = this.handlePosition.bind(this);
+    this.handleLocation = this.handleLocation.bind(this);
     this.handleError = this.handleError.bind(this);
     this.render = this.render.bind(this);
     this.handleGo = this.handleGo.bind(this);
@@ -17,14 +18,17 @@ class App {
 
     this.search.addEventListener('submit', this.handleGo);
     this.nav.addEventListener('click', this.handleFilter);
+    this.locationButton.addEventListener('click', this.handleLocation);
 
     this.distomatic = null;
 
-    if (navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition(this.handlePosition, this.handleError);
-    } else {
-      this.handleError();
-    }
+    // Default to Richmond
+    this.handlePosition({
+      coords: {
+        latitude: 37.539,
+        longitude: -77.433
+      }
+    });
   }
 
   setupElements() {
@@ -34,9 +38,21 @@ class App {
     this.latitude = document.getElementById('latitude');
     this.longitude = document.getElementById('longitude');
     this.button = document.getElementById('button');
+    this.locationButton = document.getElementById('location');
+  }
+
+  handleLocation(e) {
+    e.preventDefault();
+
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(this.handlePosition, this.handleError, { enableHighAccuracy: true });
+    } else {
+      this.handleError();
+    }
   }
 
   handlePosition(position) {
+    console.log(`Position`, position);
     this.latitude.value = parseFloat(position.coords.latitude).toFixed(3);
     this.longitude.value = parseFloat(position.coords.longitude).toFixed(3);
 

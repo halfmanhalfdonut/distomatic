@@ -11,7 +11,7 @@
   width: 300px;
   display: grid;
   grid-template-areas:
-    'title title title'
+    'title use-loc use-loc'
     'label-latitude label-longitude .'
     'input-latitude input-longitude button-go';
   grid-column-gap: 10px;
@@ -21,13 +21,20 @@
   justify-items: left;
 }
 
-@media screen and (min-width: 640px) {
-  .search {
-    width: 420px;
-    grid-template-areas:
-    'title label-latitude label-longitude .'
-    'title input-latitude input-longitude button-go';
-  }
+.button-location {
+  padding: 0;
+  grid-area: use-loc;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-family: Oswald;
+  text-transform: uppercase;
+  color: #FFF;
+  font-size: 14px;
+}
+
+.location-icon {
+  height: 12px;
 }
 
 .title {
@@ -35,6 +42,21 @@
   text-transform: uppercase;
   grid-area: title;
   margin: 0;
+}
+
+@media screen and (min-width: 640px) {
+  .search {
+    width: 490px;
+    grid-template-areas:
+    'title label-latitude label-longitude .'
+    'title input-latitude input-longitude button-go'
+    'use-loc use-loc use-loc use-loc';
+  }
+
+  .title {
+    font-size: 40px;
+    line-height: 38px;
+  }
 }
 
 .label-latitude {
@@ -73,7 +95,7 @@
 
 @media screen and (min-width: 640px) {
   .nav {
-    width: 420px;
+    width: 490px;
   }
 }
 
