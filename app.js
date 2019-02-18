@@ -52,7 +52,6 @@ class App {
   }
 
   handlePosition(position) {
-    console.log(`Position`, position);
     this.latitude.value = parseFloat(position.coords.latitude).toFixed(3);
     this.longitude.value = parseFloat(position.coords.longitude).toFixed(3);
 
