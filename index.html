@@ -10,20 +10,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
-    <header class="header">
-      <form id="search" class="search">
-        <h1 class="title">Dist-o-matic</h1>
-        <label class="label label-latitude" for="latitude">Latitude</label>
-        <input type="text" id="latitude" name="latitude" class="input input-latitude">
-        <label class="label label-longitude" for="longitude">Longitude</label>
-        <input type="text" id="longitude" name="longitude" class="input input-longitude">
-        <button id="button" type="submit" class="button button-go">Go!</button>
-        <button id="location" type="button" class="button-location" title="Use My Location"><img src="images/location.svg" alt="Use My Location" class="location-icon"> Use Your Location</button>
-      </form>
-      <nav id="nav" class="nav"></nav>
-    </header>
-
-    <div id="results" class="results"></div>
     <script type="module" src="app.js"></script>
+    <header-bar></header-bar>
+    <results-section></results-section>
   </body>
 </html>

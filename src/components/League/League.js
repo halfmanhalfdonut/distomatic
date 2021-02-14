@@ -1,36 +1,36 @@
-import Team from '../Team/Team.js';
+import { distomatic } from '../Distomatic/Distomatic.js';
 
-class League {
+class League extends HTMLElement {
   constructor() {
-    this.getName = this.getName.bind(this);
-    this.getTeams = this.getTeams.bind(this);
-    this.getHtml = this.getHtml.bind(this);
+    super();
+
+    this.leagueKey = this.getAttribute('data-key');
+    this.league = distomatic.getLeague(this.leagueKey);
   }
 
-  getName(league, version) {
-    return version === 'short' ? league.shortName : league.fullName;
+  connectedCallback() {
+    const shortName = this.league.shortName;
+    const html = `
+      <section class="league league-${shortName.toLowerCase()} sport-${this.league.sport.toLowerCase()}">
+        <a name="${shortName}">&nbsp;</a>
+        <header class="league-header">
+          <h2 class="league-name">
+            ${this.league.fullName}
+            <a class="league-link" href="${this.league.website}" target="league_website"><i class="fas fa-external-link-alt"></i></a>
+          </h2>
+        </header>
+        <ol class="teams">${this.getTeams()}</ol>
+      </section>
+    `;
+
+    this.innerHTML = html;
   }
 
-  getTeams(teams) {
-    return teams.reduce((memo, data) => {
-      let team = new Team(data);
-      return `${memo}<li class="team-item">${team.getHtml()}</li>`;
+  getTeams = () => {
+    return this.league.teams.reduce((memo, ignored, i) => {
+      return `${memo}<li class="team-item"><team-section data-league="${this.leagueKey}" data-team="${i}"></team-section></li>`;
     }, '');
-  }
-
-  getHtml(league) {
-    let shortName = this.getName(league, 'short').toLowerCase();
-    return `<section class="league league-${shortName} sport-${league.sport.toLowerCase()}">
-      <a name="${shortName}">&nbsp;</a>
-      <header class="league-header">
-        <h2 class="league-name">
-          ${this.getName(league)}
-          <a class="league-link" href="${league.website}" target="league_website"><i class="fas fa-external-link-alt"></i></a>
-        </h2>
-      </header>
-      <ol class="teams">${this.getTeams(league.teams)}</ol>
-    </section>`;
   }
 }
 
-export default League;
+export const league = () => customElements.define('league-section', League);

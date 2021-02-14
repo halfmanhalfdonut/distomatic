@@ -1,43 +1,38 @@
-class Distance {
-  constructor() {
-    this.cache = {};
+let cache = {};
+
+const getRadians = degrees => {
+  if (cache[degrees]) {
+    return cache[degrees];
   }
 
-  getRadians(degrees) {
-    // If we've already calculated this particular value, return the cached value
-    if (this.cache[degrees]) {
-      return this.cache[degrees];
-    }
+  const radians = parseFloat(degrees) * (Math.PI / 180);
 
-    let radians = parseFloat(degrees) * (Math.PI / 180);
+  cache[degrees] = radians;
+  return radians;
+};
 
-    // Cache this value so we don't have to recalculate it every time
-    this.cache[degrees] = radians;
-    return radians;
-  }
+// See haversine function here: https://en.wikipedia.org/wiki/Versine#Haversine
+const getAngle = delta => Math.pow(Math.sin(delta / 2), 2);
 
-  // See haversine function here: https://en.wikipedia.org/wiki/Versine#Haversine
-  getAngle(delta) {
-    return Math.pow(Math.sin(delta / 2), 2);
-  }
+// Radius of the earth in km
+const R = 6371; 
 
-  // See Haversine Formula here: https://en.wikipedia.org/wiki/Haversine_formula
-  getDistance(pLatitude, pLongitude, qLatitude, qLongitude) {
-    const R = 6371; // Radius of the Earth in km
-    let radians = {
-      pLatitude: this.getRadians(pLatitude),
-      pLongitude: this.getRadians(pLongitude),
-      qLatitude: this.getRadians(qLatitude),
-      qLongitude: this.getRadians(qLongitude)
-    };
+// See Haversine Formula here: https://en.wikipedia.org/wiki/Haversine_formula
+const getDistance = (pLatitude, pLongitude, qLatitude, qLongitude) => {
+  const pLatitudeRadians = getRadians(pLatitude);
+  const pLongitudeRadians = getRadians(pLongitude);
+  const qLatitudeRadians = getRadians(qLatitude);
+  const qLongitudeRadians = getRadians(qLongitude);
 
-    let latitudeDelta = radians.qLatitude - radians.pLatitude;
-    let longitudeDelta = radians.qLongitude - radians.pLongitude;
+  const latitudeDelta = qLatitudeRadians - pLatitudeRadians;
+  const longitudeDelta = qLongitudeRadians - pLongitudeRadians;
+  const angle = getAngle(latitudeDelta) + Math.cos(pLatitudeRadians) * Math.cos(qLatitudeRadians) * getAngle(longitudeDelta);
 
-    let angle = this.getAngle(latitudeDelta) + Math.cos(radians.pLatitude) * Math.cos(radians.qLatitude) * this.getAngle(longitudeDelta);
-
-    return 2 * R * Math.asin(Math.sqrt(angle));
-  }
+  return 2 * R * Math.asin(Math.sqrt(angle));
 }
 
-export default Distance;
+export {
+  getRadians,
+  getAngle,
+  getDistance
+};
