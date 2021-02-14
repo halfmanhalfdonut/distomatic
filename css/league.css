@@ -68,6 +68,13 @@
   border-color: #cd0e2d;
 }
 
+/* XFL */
+.league-xfl .league-header {
+  background: #012169;
+  color: #FFFFFF;
+  border-color: #ba0020;
+}
+
 .league-name {
   text-align: center;
   font-size: 18px;
