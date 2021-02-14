@@ -111,16 +111,23 @@
   cursor: pointer;
   margin: 0;
   padding: 5px 20px;
+  color: white;
   background: dodgerblue;
   font-family: Oswald;
   text-transform: uppercase;
   transition: background-color .2s ease-out;
+  border: none;
 }
 
 .selection-sport:hover {
   background: #4da7ff;
 }
 
-.sport-visible {
+.selection-sport:active {
+  transition: background-color 500ms linear;
+  background-color: #fff;
+}
+
+.sport-invisible {
   background: transparent;
 }
