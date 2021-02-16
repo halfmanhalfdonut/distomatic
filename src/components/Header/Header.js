@@ -61,6 +61,9 @@ class Header extends HTMLElement {
   }
 
   handlePosition = ({ coords }) => {
+    this.inputLatitude.value = coords.latitude;
+    this.inputLongitude.value = coords.longitude;
+
     document.dispatchEvent(new CustomEvent('update:location', {
       detail: {
         coords
