@@ -23,6 +23,24 @@ const MLS = {
       ]
     },
     {
+      city: 'Charlotte',
+      name: 'FC',
+      isNicknameFirst: false,
+      conference: 'Eastern',
+      division: '',
+      website: 'http://charlottefootballclub.com/',
+      location: {
+        latitude: '35.225',
+        longitude: '-80.852',
+        address: 'Charlotte, North Carolina'
+      },
+      colors: [
+        '#1386c9',
+        '#000101',
+        '#ffffff'
+      ]
+    },
+    {
       city: 'Chicago',
       name: 'Fire',
       isNicknameFirst: false,
@@ -94,9 +112,26 @@ const MLS = {
       ]
     },
     {
+      city: 'Miami',
+      name: 'Inter',
+      isNicknameFirst: true,
+      conference: 'Eastern',
+      division: '',
+      website: 'http://www.intermiamicf.com/',
+      location: {
+        latitude: '26.193',
+        longitude: '-80.161',
+        address: 'Fort Lauderdale, Florida'
+      },
+      colors: [
+        '#F7B5CD',
+        '#231F20'
+      ]
+    },
+    {
       city: 'Montreal',
-      name: 'Impact',
-      isNicknameFirst: false,
+      name: 'CF',
+      isNicknameFirst: true,
       conference: 'Eastern',
       division: '',
       website: 'https://www.impactmontreal.com/',
@@ -110,6 +145,23 @@ const MLS = {
         '#000000',
         '#bdbfc1',
         '#ffffff'
+      ]
+    },
+    {
+      city: 'Nashville',
+      name: 'SC',
+      isNicknameFirst: false,
+      conference: 'Eastern',
+      division: '',
+      website: 'https://www.nashvillesc.com/',
+      location: {
+        latitude: '36.166',
+        longitude: '-86.771',
+        address: 'Nashville, Tennessee'
+      },
+      colors: [
+        '#ece838',
+        '#190e44'
       ]
     },
     {
@@ -221,6 +273,24 @@ const MLS = {
       ]
     },
     {
+      city: 'Austin',
+      name: 'FC',
+      isNicknameFirst: false,
+      conference: 'Western',
+      division: '',
+      website: 'https://www.austinfc.com/',
+      location: {
+        latitude: '30.388',
+        longitude: '-97.719',
+        address: 'Austin, Texas'
+      },
+      colors: [
+        '#00B140',
+        '#000000',
+        '#FFFFFF'
+      ]
+    },
+    {
       city: 'Colorado',
       name: 'Rapids',
       isNicknameFirst: false,
@@ -272,6 +342,25 @@ const MLS = {
         '#f68712',
         '#ffffff',
         '#000000'
+      ]
+    },
+    {
+      city: 'Kansas City',
+      name: 'Sporting',
+      isNicknameFirst: false,
+      conference: 'Western',
+      division: '',
+      website: 'https://www.sportingkc.com/',
+      location: {
+        latitude: '39.1218',
+        longitude: '-94.8237',
+        address: 'Kansas City, Missouri'
+      },
+      colors: [
+        '#92b1d7',
+        '#Ffffff',
+        '#002c64',
+        '#9a9a9a'
       ]
     },
     {
@@ -348,6 +437,24 @@ const MLS = {
       ]
     },
     {
+      city: 'Sacramento',
+      name: 'Republic FC',
+      isNicknameFirst: false,
+      conference: 'Western',
+      division: '',
+      website: 'https://www.sacrepublicfc.com/',
+      location: {
+        latitude: '38.590',
+        longitude: '-121.490',
+        address: 'Sacramento, California'
+      },
+      colors: [
+        '#7c2529',
+        '#eed9b2',
+        '#ffffff'
+      ]
+    },
+    {
       city: 'Salt Lake',
       name: 'Real',
       isNicknameFirst: true,
@@ -403,22 +510,21 @@ const MLS = {
       ]
     },
     {
-      city: 'Kansas City',
-      name: 'Sporting',
+      city: 'St. Louis',
+      name: 'City FC',
       isNicknameFirst: false,
       conference: 'Western',
       division: '',
-      website: 'https://www.sportingkc.com/',
+      website: 'http://stlcitysc.com/',
       location: {
-        latitude: '39.1218',
-        longitude: '-94.8237',
-        address: 'Kansas City, Missouri'
+        latitude: '38.631',
+        longitude: '-90.210',
+        address: 'St. Louis, Missouri'
       },
       colors: [
-        '#92b1d7',
-        '#Ffffff',
-        '#002c64',
-        '#9a9a9a'
+        '#e80a4d',
+        '#0b2240',
+        '#f6ed14'
       ]
     },
     {
