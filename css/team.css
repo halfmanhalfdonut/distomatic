@@ -23,7 +23,7 @@
 }
 
 .team {
-  border-top: 2px solid #f3f3f3;
+  border-top: 2px solid var(--theme-dim);
   position: relative;
   padding: 5px 10px 20px;
 }
@@ -34,7 +34,7 @@
 
 .team:hover {
   background: rgba(0, 0, 0, 0.025);
-  color: #357;
+  color: var(--theme-dark);
 }
 
 .team-meta {
@@ -62,7 +62,7 @@
 }
 
 .team:hover .team-name-heading {
-  color: #357;
+  color: var(--theme-dark);
 }
 
 .team-name-subheading {
@@ -72,7 +72,7 @@
 }
 
 .team:hover .team-name-subheading {
-  color: dodgerblue;
+  color: var(--theme-bright);
 }
 
 .color-bar {

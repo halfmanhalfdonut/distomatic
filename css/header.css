@@ -1,8 +1,8 @@
 .header {
-  background: #357;
-  color: white;
+  background: var(--theme-dark);
+  color: var(--theme-background);
   padding: 10px 10px;
-  border-bottom: 5px solid dodgerblue;
+  border-bottom: 5px solid var(--theme-bright);
   text-align: center;
 }
 
@@ -29,7 +29,7 @@
   cursor: pointer;
   font-family: Oswald;
   text-transform: uppercase;
-  color: #FFF;
+  color: var(--theme-background);
   font-size: 14px;
 }
 
@@ -102,7 +102,7 @@
 @media screen and (min-width: 960px) {
   .nav {
     width: 940px;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   }
 }
 
@@ -111,8 +111,8 @@
   cursor: pointer;
   margin: 0;
   padding: 5px 20px;
-  color: white;
-  background: dodgerblue;
+  color: var(--theme-background);
+  background: var(--theme-bright);
   font-family: Oswald;
   text-transform: uppercase;
   transition: background-color .2s ease-out;
@@ -120,12 +120,12 @@
 }
 
 .selection-sport:hover {
-  background: #4da7ff;
+  background: var(--theme-medium);
 }
 
 .selection-sport:active {
   transition: background-color 500ms linear;
-  background-color: #fff;
+  background-color: var(--theme-background);
 }
 
 .sport-invisible {
