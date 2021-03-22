@@ -19,7 +19,7 @@
 .league-link:hover,
 .league-link:focus {
   text-decoration: none;
-  color: #FFFFFF;
+  color: var(--theme-background);
 }
 
 /* NFL */
@@ -52,6 +52,13 @@
   background: #002e6c;
   color: #FFFFFF;
   border-color: #d50032;
+}
+
+/* MLR */
+.league-mlr .league-header  {
+  background: #ed171e;
+  color: #FFFFFF;
+  border-color: #878585;
 }
 
 /* MLS */

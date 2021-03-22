@@ -1,6 +1,11 @@
-@import url('header.css');
-@import url('league.css');
-@import url('team.css');
+:root {
+  --theme-dark: #357;
+  --theme-bright: dodgerblue;
+  --theme-medium: #4da7ff;
+  --theme-text: #333;
+  --theme-background: #fff;
+  --theme-dim: #f3f3f3;
+}
 
 * {
   outline: none;
@@ -10,8 +15,8 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background: white;
-  color: #333;
+  background: var(--theme-background);
+  color: var(--theme-text);
   font-family: Lato, sans-serif;
   font-size: 13px;
 }
@@ -31,10 +36,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .input,
 .button {
-  background: #FFF;
+  background: var(--theme-background);
   border: none;
   padding: 2px 5px;
-  color: #333;
+  color: var(--theme-text);
 }
 
 .button {
