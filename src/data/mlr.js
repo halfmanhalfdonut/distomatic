@@ -11,12 +11,12 @@ const MLR = {
       division: '',
       website: 'https://freejacks.com/',
       location: {
-        latitude: '42.2181',
-        longitude: '-70.941',
-        address: 'Weymouth, Massachusetts'
+        latitude: '42.261',
+        longitude: '-71.01',
+        address: 'Quincy, Massachusetts'
       },
       colors: [
-        '#0b2243',
+        '#0a2343',
         '#c72032'
       ]
     },
@@ -44,31 +44,30 @@ const MLR = {
       division: '',
       website: 'https://oldglorydc.com/',
       location: {
-        latitude: '38.943',
-        longitude: '-77.000',
-        address: 'Washington, DC'
+        latitude: '39.07',
+        longitude: '-77.545',
+        address: 'Leesburg, Virginia'
       },
       colors: [
-        '#032b56',
-        '#bf2b29',
+        '#082051',
+        '#c50a2a',
         '#FFFFFF'
       ]
     },
     {
       city: 'New York',
-      name: 'Rugby United',
-      isNicknameFirst: true,
+      name: 'Ironworkers',
       conference: 'Eastern',
       division: '',
-      website: 'https://rugbyunitedny.com/',
+      website: 'https://rugbynewyork.com/',
       location: {
-        latitude: '40.574',
-        longitude: '-73.984',
-        address: 'New York, NY'
+        latitude: '40.902',
+        longitude: '-73.817',
+        address: 'Mount Vernon, New York'
       },
       colors: [
-        '#012d62',
-        '#f27736',
+        '#000d5b',
+        '#69c3ec',
         '#ffffff'
       ]
     },
@@ -80,14 +79,14 @@ const MLR = {
       division: '',
       website: 'https://rugbyatl.rugby/',
       location: {
-        latitude: '33.9325',
-        longitude: '-84.5145',
-        address: 'Marietta, Georgia'
+        latitude: '33.891',
+        longitude: '-84.255',
+        address: 'Atlanta, Georgia'
       },
       colors: [
-        '#0e1011',
-        '#cfd2d3',
-        '#b12028'
+        '#003529',
+        '#00DCFF',
+        '#FE8D65'
       ]
     },
     {
@@ -97,29 +96,46 @@ const MLR = {
       division: '',
       website: 'https://torontoarrows.com/',
       location: {
-        latitude: '43.7775',
-        longitude: '-79.5075',
+        latitude: '43.774',
+        longitude: '-79.506',
         address: 'Toronto, Ontario'
       },
       colors: [
-        '#214391',
+        '#69c3ec',
         '#FFFFFF'
       ]
     },
     {
-      city: 'Austin',
-      name: 'Gilgronis',
+      city: 'Chicago',
+      name: 'Hounds',
       conference: 'Western',
       division: '',
-      website: 'http://www.gilgronis.com/',
+      website: 'https://www.chicagohounds.com/',
       location: {
-        latitude: '30.1359',
-        longitude: '-97.6393',
-        address: 'Del Valle, Texas'
+        latitude: '41.764',
+        longitude: '-87.806',
+        address: 'Bridgeview, Illinois'
       },
       colors: [
-        '#cb5722',
+        '#23613a',
+        '#4698cc',
         '#FFFFFF'
+      ]
+    },
+    {
+      city: 'Dallas',
+      name: 'Jackals',
+      conference: 'Western',
+      division: '',
+      website: 'https://www.dallasjackals.com/',
+      location: {
+        latitude: '32.751',
+        longitude: '-97.082',
+        address: 'Arlington, Texas'
+      },
+      colors: [
+        '#00ad94',
+        '#000000'
       ]
     },
     {
@@ -139,36 +155,19 @@ const MLR = {
       ]
     },
     {
-      city: 'LA',
-      name: 'Giltinis',
-      conference: 'Western',
-      division: '',
-      website: 'http://giltinis.com/',
-      location: {
-        latitude: '34.014167',
-        longitude: '-118.287778',
-        address: 'Los Angeles, California'
-      },
-      colors: [
-        '#01bbe7',
-        '#ec68a5'
-      ]
-    },
-    {
       city: 'San Diego',
       name: 'Legion',
       conference: 'Western',
       division: '',
       website: 'https://www.sdlegion.com/',
       location: {
-        latitude: '32.7731',
-        longitude: '-117.1837',
+        latitude: '32.784',
+        longitude: '-117.122',
         address: 'San Diego, California'
       },
       colors: [
-        '#e33437',
-        '#ffffff',
-        '#000000'
+        '#EB0225',
+        '#ffffff'
       ]
     },
     {

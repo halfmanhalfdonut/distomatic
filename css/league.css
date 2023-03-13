@@ -77,9 +77,16 @@
 
 /* XFL */
 .league-xfl .league-header {
-  background: #012169;
+  background: #000000;
   color: #FFFFFF;
-  border-color: #ba0020;
+  border-color: #bebebe;
+}
+
+/* USFL */
+.league-usfl .league-header {
+  background: #002d74;
+  color: #FFFFFF;
+  border-color: #ce0e2d;
 }
 
 .league-name {

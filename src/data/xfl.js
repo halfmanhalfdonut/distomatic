@@ -5,11 +5,11 @@ const XFL = {
   website: 'https://xfl.com/',
   teams: [
     {
-      city: 'Dallas',
+      city: 'Arlington',
       name: 'Renegades',
       conference: '',
       division: 'West',
-      website: 'https://www.xfl.com/teams/dallas',
+      website: 'https://www.xfl.com/teams/arlington',
       location: {
         latitude: '32.751',
         longitude: '-97.082',
@@ -55,42 +55,42 @@ const XFL = {
       ]
     },
     {
-      city: 'Los Angeles',
-      name: 'Wildcats',
+      city: 'San Antonio',
+      name: 'Brahmas',
       conference: '',
       division: 'West',
-      website: 'https://www.xfl.com/teams/los-angeles',
+      website: 'https://www.xfl.com/teams/san-antonio',
       location: {
-        latitude: '33.864',
-        longitude: '-118.261',
-        address: 'Carson, California'
+        latitude: '29.416',
+        longitude: '-98.478',
+        address: 'San Antonio, Texas'
       },
       colors: [
+        '#FAA818',
         '#000000',
-        '#CC163F',
-        '#F7921E'
+        '#BEBEBE'
       ]
     },
     {
-      city: 'New York',
+      city: 'Orlando',
       name: 'Guardians',
       conference: '',
       division: 'East',
-      website: 'https://www.xfl.com/teams/new-york',
+      website: 'https://www.xfl.com/teams/orlando',
       location: {
-        latitude: '40.813',
-        longitude: '-74.074',
-        address: 'East Rutherford, New Jersey'
+        latitude: '28.538',
+        longitude: '-81.402',
+        address: 'Orlando, Florida'
       },
       colors: [
-        '#000000',
-        '#A4A3A8',
-        '#CF143F'
+        '#144618',
+        '#23E100',
+        '#9E9E9E'
       ]
     },
     {
       city: 'Seattle',
-      name: 'Dragons',
+      name: 'Sea Dragons',
       conference: '',
       division: 'West',
       website: 'https://www.xfl.com/en-US/teams/seattle',
@@ -100,9 +100,9 @@ const XFL = {
         address: 'Seattle, Washington'
       },
       colors: [
-        '#011D49',
-        '#005343',
-        '#F25C21'
+        '#0C2340',
+        '#00843D',
+        '#DC4405'
       ]
     },
     {
@@ -118,24 +118,25 @@ const XFL = {
       },
       colors: [
         '#00488D',
+        '#FFFFFF',
         '#A4A3A8',
         '#011D49'
       ]
     },
     {
-      city: 'Tampa Bay',
+      city: 'Vegas',
       name: 'Vipers',
       conference: '',
       division: 'East',
-      website: 'https://www.xfl.com/teams/tampa-bay',
+      website: 'https://www.xfl.com/teams/las-vegas',
       location: {
-        latitude: '27.975',
-        longitude: '-82.503',
-        address: 'Tampa Bay, Florida'
+        latitude: '36.179',
+        longitude: '-115.129',
+        address: 'Las Vegas, Nevada'
       },
       colors: [
-        '#037426',
-        '#FBA818',
+        '#000000',
+        '#FF0000',
         '#FFFFFF'
       ]
     }

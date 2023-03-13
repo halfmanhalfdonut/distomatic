@@ -1,3 +1,4 @@
+// This league is TOTALLY DEAD
 const AAF = {
   fullName: 'Alliance of American Football',
   shortName: 'AAF',

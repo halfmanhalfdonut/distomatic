@@ -42,20 +42,20 @@ const MLS = {
     },
     {
       city: 'Chicago',
-      name: 'Fire',
+      name: 'Fire FC',
       isNicknameFirst: false,
       conference: 'Eastern',
       division: '',
-      website: 'https://www.chicago-fire.com/',
+      website: 'https://www.chicagofirefc.com/',
       location: {
-        latitude: '41.764722',
-        longitude: '-87.806111',
-        address: 'Bridgeview, Illinois'
+        latitude: '41.863',
+        longitude: '-87.616',
+        address: 'Chicago, Illinois'
       },
       colors: [
-        '#ce1333',
-        '#00225a',
-        '#a7a9ac'
+        '#0c1244',
+        '#ff0000',
+        '#7dcef0'
       ]
     },
     {
@@ -66,26 +66,26 @@ const MLS = {
       division: '',
       website: 'https://www.fccincinnati.com/',
       location: {
-        latitude: '39.131',
-        longitude: '-84.516',
+        latitude: '39.111',
+        longitude: '-84.522',
         address: 'Cincinnati, Ohio'
       },
       colors: [
-        '#f1521e',
         '#213881',
+        '#f1521e',
         '#FFFFFF'
       ]
     },
     {
       city: 'Columbus',
-      name: 'Crew SC',
+      name: 'Crew',
       isNicknameFirst: false,
       conference: 'Eastern',
       division: '',
-      website: 'https://www.columbuscrewsc.com/',
+      website: 'https://www.columbuscrew.com/',
       location: {
-        latitude: '40.009444',
-        longitude: '-82.991111',
+        latitude: '39.968',
+        longitude: '-83.017',
         address: 'Columbus, Ohio'
       },
       colors: [
@@ -113,7 +113,7 @@ const MLS = {
     },
     {
       city: 'Miami',
-      name: 'Inter',
+      name: 'Inter CF',
       isNicknameFirst: true,
       conference: 'Eastern',
       division: '',
@@ -129,12 +129,12 @@ const MLS = {
       ]
     },
     {
-      city: 'Montreal',
+      city: 'Montréal',
       name: 'CF',
       isNicknameFirst: true,
       conference: 'Eastern',
       division: '',
-      website: 'https://www.impactmontreal.com/',
+      website: 'https://www.cfmontreal.com/',
       location: {
         latitude: '45.563056',
         longitude: '-73.5525',
