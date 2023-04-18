@@ -332,10 +332,10 @@ const NFL = {
     },
     {
       city: 'Washington',
-      name: 'Redskins',
+      name: 'Commanders',
       conference: 'NFC',
       division: 'East',
-      website: 'https://www.redskins.com/',
+      website: 'https://www.commanders.com/',
       location: {
         latitude: '38.908',
         longitude: '-76.864',

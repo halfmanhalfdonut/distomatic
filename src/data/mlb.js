@@ -111,10 +111,10 @@ const MLB = {
     },
     {
       city: 'Cleveland',
-      name: 'Indians',
+      name: 'Guardians',
       conference: 'American',
       division: 'Central',
-      website: 'https://www.mlb.com/indians',
+      website: 'https://www.cleguardians.com',
       location: {
         latitude: '41.495',
         longitude: '-81.685',
