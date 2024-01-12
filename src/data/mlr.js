@@ -21,6 +21,23 @@ const MLR = {
       ]
     },
     {
+      city: 'Miami',
+      name: 'Sharks',
+      conference: 'Eastern',
+      division: '',
+      website: 'https://miamisharks.com/',
+      location: {
+        latitude: '26.196',
+        longitude: '-80.160',
+        address: 'Fort Lauderdale, Florida'
+      },
+      colors: [
+        '#fd01a9',
+        '#20b5ea',
+        '#ffffff'
+      ]
+    },
+    {
       city: 'New Orleans',
       name: 'Gold',
       conference: 'Eastern',
@@ -40,7 +57,7 @@ const MLR = {
       city: 'DC',
       name: 'Old Glory',
       isNicknameFirst: true,
-      conference: 'Eastern',
+      conference: '',
       division: '',
       website: 'https://oldglorydc.com/',
       location: {
@@ -55,60 +72,9 @@ const MLR = {
       ]
     },
     {
-      city: 'New York',
-      name: 'Ironworkers',
-      conference: 'Eastern',
-      division: '',
-      website: 'https://rugbynewyork.com/',
-      location: {
-        latitude: '40.902',
-        longitude: '-73.817',
-        address: 'Mount Vernon, New York'
-      },
-      colors: [
-        '#000d5b',
-        '#69c3ec',
-        '#ffffff'
-      ]
-    },
-    {
-      city: 'ATL',
-      name: 'Rugby',
-      isNicknameFirst: true,
-      conference: 'Eastern',
-      division: '',
-      website: 'https://rugbyatl.rugby/',
-      location: {
-        latitude: '33.891',
-        longitude: '-84.255',
-        address: 'Atlanta, Georgia'
-      },
-      colors: [
-        '#003529',
-        '#00DCFF',
-        '#FE8D65'
-      ]
-    },
-    {
-      city: 'Toronto',
-      name: 'Arrows',
-      conference: 'Eastern',
-      division: '',
-      website: 'https://torontoarrows.com/',
-      location: {
-        latitude: '43.774',
-        longitude: '-79.506',
-        address: 'Toronto, Ontario'
-      },
-      colors: [
-        '#69c3ec',
-        '#FFFFFF'
-      ]
-    },
-    {
       city: 'Chicago',
       name: 'Hounds',
-      conference: 'Western',
+      conference: '',
       division: '',
       website: 'https://www.chicagohounds.com/',
       location: {
@@ -120,6 +86,24 @@ const MLR = {
         '#23613a',
         '#4698cc',
         '#FFFFFF'
+      ]
+    },
+    {
+      city: 'Los Angeles',
+      name: 'Rugby FC',
+      isNicknameFirst: true,
+      conference: '',
+      division: '',
+      website: 'https://rugbyfcla.com/',
+      location: {
+        latitude: '33.864',
+        longitude: '-118.261',
+        address: 'Carson, CA'
+      },
+      colors: [
+        '#10069e',
+        '#68ccf9',
+        '#edf000'
       ]
     },
     {

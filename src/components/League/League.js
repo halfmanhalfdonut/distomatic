@@ -15,7 +15,7 @@ class League extends HTMLElement {
         <a name="${shortName}">&nbsp;</a>
         <header class="league-header">
           <h2 class="league-name">
-            ${this.league.fullName}
+            <span title="${this.league.fullName}">${this.league.shortName}</span>
             <a class="league-link" href="${this.league.website}" target="league_website"><i class="fas fa-external-link-alt"></i></a>
           </h2>
         </header>

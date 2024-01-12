@@ -89,6 +89,13 @@
   border-color: #ce0e2d;
 }
 
+/* UFL */
+.league-ufl .league-header {
+  background: #000000;
+  color: #FFFFFF;
+  border-color: #333333;
+}
+
 .league-name {
   text-align: center;
   font-size: 18px;
