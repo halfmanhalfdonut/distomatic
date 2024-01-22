@@ -7,7 +7,7 @@ const MLR = {
     {
       city: 'New England',
       name: 'Free Jacks',
-      conference: 'Eastern',
+      conference: '',
       division: '',
       website: 'https://freejacks.com/',
       location: {
@@ -23,7 +23,7 @@ const MLR = {
     {
       city: 'Miami',
       name: 'Sharks',
-      conference: 'Eastern',
+      conference: '',
       division: '',
       website: 'https://miamisharks.com/',
       location: {
@@ -40,7 +40,7 @@ const MLR = {
     {
       city: 'New Orleans',
       name: 'Gold',
-      conference: 'Eastern',
+      conference: '',
       division: '',
       website: 'https://www.nolagoldrugby.com/',
       location: {
@@ -61,13 +61,31 @@ const MLR = {
       division: '',
       website: 'https://oldglorydc.com/',
       location: {
-        latitude: '39.07',
-        longitude: '-77.545',
-        address: 'Leesburg, Virginia'
+        latitude: '39.152',
+        longitude: '-77.31',
+        address: 'Boyds, MD'
       },
       colors: [
         '#082051',
         '#c50a2a',
+        '#FFFFFF'
+      ]
+    },
+    {
+      city: 'RC',
+      name: 'Anthem',
+      isNicknameFirst: true,
+      conference: '',
+      division: '',
+      website: 'https://anthemrc.com/',
+      location: {
+        latitude: '35.218',
+        longitude: '-80.828',
+        address: 'Charlotte, North Carolina'
+      },
+      colors: [
+        '#1a85c8',
+        '#daaa00',
         '#FFFFFF'
       ]
     },
@@ -109,7 +127,7 @@ const MLR = {
     {
       city: 'Dallas',
       name: 'Jackals',
-      conference: 'Western',
+      conference: '',
       division: '',
       website: 'https://www.dallasjackals.com/',
       location: {
@@ -125,7 +143,7 @@ const MLR = {
     {
       city: 'Houston',
       name: 'SaberCats',
-      conference: 'Western',
+      conference: '',
       division: '',
       website: 'https://www.houstonsabercats.com/',
       location: {
@@ -141,7 +159,7 @@ const MLR = {
     {
       city: 'San Diego',
       name: 'Legion',
-      conference: 'Western',
+      conference: '',
       division: '',
       website: 'https://www.sdlegion.com/',
       location: {
@@ -157,7 +175,7 @@ const MLR = {
     {
       city: 'Seattle',
       name: 'Seawolves',
-      conference: 'Western',
+      conference: '',
       division: '',
       website: 'http://seattleseawolves.com/',
       location: {
@@ -174,7 +192,7 @@ const MLR = {
     {
       city: 'Utah',
       name: 'Warriors',
-      conference: 'Western',
+      conference: '',
       division: '',
       website: 'http://warriorsrugby.com/',
       location: {
