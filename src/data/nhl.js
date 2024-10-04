@@ -418,20 +418,20 @@ const NHL = {
       ]
     },
     {
-      city: 'Arizona',
-      name: 'Coyotes',
+      city: 'Utah',
+      name: 'Hockey Club',
       conference: 'Western',
       division: 'Pacific',
-      website: 'https://www.nhl.com/coyotes',
+      website: 'https://www.nhl.com/utah',
       location: {
-        latitude: '33.531',
-        longitude: '-112.261',
-        address: 'Glendale, Arizona'
+        latitude: '40.466',
+        longitude: '-111.544',
+        address: 'Salt Lake City, Utah'
       },
       colors: [
-        '#8C2633',
-        '#E2D6B5',
-        '#000000'
+        '#010101',
+        '#FFFFFF',
+        '#6CACE4'
       ]
     },
     {
@@ -501,6 +501,25 @@ const NHL = {
         '#006D75',
         '#EA7200',
         '#000000'
+      ]
+    },
+    {
+      city: 'Seattle',
+      name: 'Kraken',
+      conference: 'Western',
+      division: 'Pacific',
+      website: 'https://www.nhl.com/kraken',
+      location: {
+        latitude: '47.622',
+        longitude: '-122.354',
+        address: 'Seattle, Washington'
+      },
+      colors: [
+        '#001425',
+        '#96D8D8',
+        '#384F5F',
+        '#639FB6',
+        '#C8102E',
       ]
     },
     {

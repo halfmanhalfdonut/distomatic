@@ -125,22 +125,6 @@ const MLR = {
       ]
     },
     {
-      city: 'Dallas',
-      name: 'Jackals',
-      conference: '',
-      division: '',
-      website: 'https://www.dallasjackals.com/',
-      location: {
-        latitude: '32.751',
-        longitude: '-97.082',
-        address: 'Arlington, Texas'
-      },
-      colors: [
-        '#00ad94',
-        '#000000'
-      ]
-    },
-    {
       city: 'Houston',
       name: 'SaberCats',
       conference: '',
