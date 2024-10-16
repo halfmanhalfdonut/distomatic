@@ -112,7 +112,7 @@ const NHL = {
       division: 'Atlantic',
       website: 'https://www.nhl.com/lightning',
       location: {
-        latitude: '27.842',
+        latitude: '27.943',
         longitude: '-82.451',
         address: 'Tampa, Florida'
       },
@@ -424,8 +424,8 @@ const NHL = {
       division: 'Pacific',
       website: 'https://www.nhl.com/utah',
       location: {
-        latitude: '40.466',
-        longitude: '-111.544',
+        latitude: '40.768',
+        longitude: '-111.901',
         address: 'Salt Lake City, Utah'
       },
       colors: [
