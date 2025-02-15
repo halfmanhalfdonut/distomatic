@@ -437,20 +437,20 @@ const MLS = {
       ]
     },
     {
-      city: 'Sacramento',
-      name: 'Republic FC',
+      city: 'San Diego',
+      name: 'FC',
       isNicknameFirst: false,
       conference: 'Western',
       division: '',
       website: 'https://www.sacrepublicfc.com/',
       location: {
-        latitude: '38.590',
-        longitude: '-121.490',
-        address: 'Sacramento, California'
+        latitude: '32.784',
+        longitude: '-117.123',
+        address: 'San Diego, California'
       },
       colors: [
-        '#7c2529',
-        '#eed9b2',
+        '#06172b',
+        '#000000',
         '#ffffff'
       ]
     },
