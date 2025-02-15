@@ -53,9 +53,9 @@ const MLS = {
         address: 'Chicago, Illinois'
       },
       colors: [
-        '#0c1244',
+        '#7ccdef',
         '#ff0000',
-        '#7dcef0'
+        '#ffffff'
       ]
     },
     {
@@ -450,7 +450,7 @@ const MLS = {
       },
       colors: [
         '#06172b',
-        '#000000',
+        '#018ed5',
         '#ffffff'
       ]
     },
