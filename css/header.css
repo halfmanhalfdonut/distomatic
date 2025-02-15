@@ -125,10 +125,17 @@
 }
 
 .selection-sport:active {
-  transition: background-color 500ms linear;
+  transition: background-color 250ms linear;
   background-color: transparent;
 }
 
 .sport-invisible {
   background: transparent;
+
+  &:hover {
+    background: transparent;
+  }
+  &:active {
+    background: transparent;
+  }
 }

@@ -27,7 +27,7 @@ class League extends HTMLElement {
   }
 
   getTeams = () => {
-    return this.league.teams.reduce((memo, ignored, i) => {
+    return this.league.teams.reduce((memo, _, i) => {
       return `${memo}<li class="team-item"><team-section data-league="${this.leagueKey}" data-team="${i}"></team-section></li>`;
     }, '');
   }
