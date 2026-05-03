@@ -11,46 +11,13 @@ const MLR = {
       division: '',
       website: 'https://freejacks.com/',
       location: {
-        latitude: '42.261',
-        longitude: '-71.01',
+        latitude: '42.261309',
+        longitude: '-71.010175',
         address: 'Quincy, Massachusetts'
       },
       colors: [
         '#0a2343',
         '#c72032'
-      ]
-    },
-    {
-      city: 'Miami',
-      name: 'Sharks',
-      conference: '',
-      division: '',
-      website: 'https://miamisharks.com/',
-      location: {
-        latitude: '26.196',
-        longitude: '-80.160',
-        address: 'Fort Lauderdale, Florida'
-      },
-      colors: [
-        '#fd01a9',
-        '#20b5ea',
-        '#ffffff'
-      ]
-    },
-    {
-      city: 'New Orleans',
-      name: 'Gold',
-      conference: '',
-      division: '',
-      website: 'https://www.nolagoldrugby.com/',
-      location: {
-        latitude: '29.975',
-        longitude: '-90.199',
-        address: 'Metairie, Louisiana'
-      },
-      colors: [
-        '#b88e2c',
-        '#FFFFFF'
       ]
     },
     {
@@ -61,9 +28,9 @@ const MLR = {
       division: '',
       website: 'https://oldglorydc.com/',
       location: {
-        latitude: '39.152',
-        longitude: '-77.31',
-        address: 'Boyds, MD'
+        latitude: '38.834066',
+        longitude: '-77.316284',
+        address: 'Fairfax, Virginia'
       },
       colors: [
         '#082051',
@@ -79,8 +46,8 @@ const MLR = {
       division: '',
       website: 'https://anthemrc.com/',
       location: {
-        latitude: '35.218',
-        longitude: '-80.828',
+        latitude: '35.218236',
+        longitude: '-80.828454',
         address: 'Charlotte, North Carolina'
       },
       colors: [
@@ -107,52 +74,19 @@ const MLR = {
       ]
     },
     {
-      city: 'Los Angeles',
-      name: 'Rugby FC',
-      isNicknameFirst: true,
-      conference: '',
-      division: '',
-      website: 'https://rugbyfcla.com/',
-      location: {
-        latitude: '33.864',
-        longitude: '-118.261',
-        address: 'Carson, CA'
-      },
-      colors: [
-        '#10069e',
-        '#68ccf9',
-        '#edf000'
-      ]
-    },
-    {
-      city: 'Houston',
-      name: 'SaberCats',
-      conference: '',
-      division: '',
-      website: 'https://www.houstonsabercats.com/',
-      location: {
-        latitude: '29.6345',
-        longitude: '-95.3899',
-        address: 'Houston, Texas'
-      },
-      colors: [
-        '#000000',
-        '#e9c83c'
-      ]
-    },
-    {
-      city: 'San Diego',
+      city: 'California',
       name: 'Legion',
       conference: '',
       division: '',
-      website: 'https://www.sdlegion.com/',
+      website: 'https://legion.rugby/',
       location: {
-        latitude: '32.784',
-        longitude: '-117.122',
-        address: 'San Diego, California'
+        latitude: '37.841726',
+        longitude: '-122.104429',
+        address: 'Moraga, California'
       },
       colors: [
-        '#EB0225',
+        '#d7263d',
+        '#192350',
         '#ffffff'
       ]
     },
@@ -163,8 +97,8 @@ const MLR = {
       division: '',
       website: 'http://seattleseawolves.com/',
       location: {
-        latitude: '47.469753',
-        longitude: '-122.248333',
+        latitude: '47.470513',
+        longitude: '-122.249031',
         address: 'Tukwila, Washington'
       },
       colors: [
@@ -173,24 +107,6 @@ const MLR = {
         '#b1b1b4'
       ]
     },
-    {
-      city: 'Utah',
-      name: 'Warriors',
-      conference: '',
-      division: '',
-      website: 'http://warriorsrugby.com/',
-      location: {
-        latitude: '40.483889',
-        longitude: '-111.979444',
-        address: 'Herriman, Utah'
-      },
-      colors: [
-        '#000000',
-        '#c5161d',
-        '#b7c2c2',
-        '#ffffff'
-      ]
-    }
   ]
 };
 

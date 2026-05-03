@@ -8,5 +8,6 @@ import MLS from './mls.js';
 //import XFL from './xfl.js';
 //import USFL from './usfl.js';
 import UFL from './ufl.js';
+import USLC from './uslc.js';
 
-export { NFL, NHL, NBA, MLB, MLR, MLS, UFL };
+export { NFL, NHL, NBA, MLB, MLR, MLS, UFL, USLC };

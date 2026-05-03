@@ -61,6 +61,13 @@
   border-color: #878585;
 }
 
+/* USLC */
+.league-uslc .league-header  {
+  background: #000000;
+  color: #b0824f;
+  border-color: #b0824f;
+}
+
 /* MLS */
 .league-mls .league-header  {
   background: #363636;

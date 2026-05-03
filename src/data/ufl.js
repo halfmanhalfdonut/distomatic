@@ -5,27 +5,10 @@ const UFL = {
   website: 'https://www.theufl.com/',
   teams: [
     {
-      city: 'Michigan',
-      name: 'Panthers',
-      conference: '',
-      division: 'USFL',
-      website: 'https://www.theusfl.com/michigan-panthers-team',
-      location: {
-        latitude: '42.331',
-        longitude: '-83.0458',
-        address: 'Detroit, Michigan'
-      },
-      colors: [
-        '#702e3e',
-        '#c6b784',
-        '#4197cb'
-      ]
-    },
-    {
       city: 'Birmingham',
       name: 'Stallions',
       conference: '',
-      division: 'USFL',
+      division: '',
       website: 'https://www.theufl.com',
       location: {
         latitude: '33.517',
@@ -39,49 +22,50 @@ const UFL = {
       ]
     },
     {
-      city: 'Houston',
-      name: 'Roughnecks',
+      city: 'Orlando',
+      name: 'Storm',
       conference: '',
-      division: 'USFL',
+      division: '',
       website: 'https://www.theufl.com',
       location: {
-        latitude: '29.762',
-        longitude: '-95.383',
+        latitude: '28.541008',
+        longitude: '-81.389370',
+        address: 'Orlando, Florida'
+      },
+      colors: [
+        '#2a2f3b',
+        '#fe4f02',
+        '#763cbd',
+        '#FFFFFF',
+      ]
+    },
+    {
+      city: 'Houston',
+      name: 'Gamblers',
+      conference: '',
+      division: '',
+      website: 'https://www.theufl.com',
+      location: {
+        latitude: '29.752853',
+        longitude: '-95.352904',
         address: 'Houston, Texas'
       },
       colors: [
         '#000000',
-        '#808080',
-        '#ea0029'
+        '#e4022b',
+        '#ffcc01',
       ]
     },
     {
-      city: 'Memphis',
-      name: 'Showboats',
-      conference: '',
-      division: 'USFL',
-      website: 'https://www.theufl.com',
-      location: {
-        latitude: '35.117',
-        longitude: '-89.971',
-        address: 'Memphis, Tennessee'
-      },
-      colors: [
-        '#12284c',
-        '#ffb71b',
-        '#FFFFFF'
-      ]
-    },
-    {
-      city: 'Arlington',
+      city: 'Dallas',
       name: 'Renegades',
       conference: '',
-      division: 'XFL',
+      division: '',
       website: 'https://www.theufl.com',
       location: {
-        latitude: '32.751',
-        longitude: '-97.082',
-        address: 'Arlington, Texas'
+        latitude: '33.153819',
+        longitude: '-96.834251',
+        address: 'Frisco, Texas'
       },
       colors: [
         '#000000',
@@ -90,10 +74,27 @@ const UFL = {
       ]
     },
     {
+      city: 'Louisville',
+      name: 'Kings',
+      conference: '',
+      division: '',
+      website: 'https://www.theufl.com',
+      location: {
+        latitude: '38.260139',
+        longitude: '-85.733006',
+        address: 'Louisville, Kentucky'
+      },
+      colors: [
+        '#0e1f0e',
+        '#97d700',
+        '#FFFFFF',
+      ]
+    },
+    {
       city: 'DC',
       name: 'Defenders',
       conference: '',
-      division: 'XFL',
+      division: '',
       website: 'https://www.theufl.com',
       location: {
         latitude: '38.868',
@@ -106,27 +107,28 @@ const UFL = {
       ]
     },
     {
-      city: 'San Antonio',
-      name: 'Brahmas',
+      city: 'Columbus',
+      name: 'Aviators',
       conference: '',
-      division: 'XFL',
-      website: 'https:/www.theufl.com',
+      division: '',
+      website: 'https://www.theufl.com',
       location: {
-        latitude: '29.416',
-        longitude: '-98.478',
-        address: 'San Antonio, Texas'
+        latitude: '40.009935',
+        longitude: '-82.990025',
+        address: 'Columbus, Ohio'
       },
       colors: [
-        '#FAA818',
-        '#000000',
-        '#BEBEBE'
+        '#0c2340',
+        '#6ab3e8',
+        '#e70329',
+        '#FFFFFF',
       ]
     },
     {
       city: 'St. Louis',
       name: 'BattleHawks',
       conference: '',
-      division: 'XFl',
+      division: '',
       website: 'https://www.theufl.com',
       location: {
         latitude: '38.632',
